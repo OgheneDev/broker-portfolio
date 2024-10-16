@@ -1,7 +1,7 @@
 import React from 'react'
 import feat from '../assets/images/feat.png'
 import pro from '../assets/images/pro.svg'
-import path from '../assets/images/path.svg'
+import path from '../assets/images/Path.svg'
 
 const Features = () => {
   return (

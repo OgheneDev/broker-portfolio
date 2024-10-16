@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, input, button{
+  font-family: "Epilogue", sans-serif;
+}
+
+body{
+  background-color: #F3D1BF;
+}

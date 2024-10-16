@@ -8,7 +8,7 @@ import about from '../assets/images/about.png'
 
 const About = () => {
   return (
-    <section className='about bg-custom-pink mb-[70px]'>
+    <section className='about mb-[70px]'>
       <div className='flex flex-wrap p-[20px] pb-[50px] items-start justify-center gap-[20px]'>
         <img className='w-[150px]' src={digital} alt="" />
         <img className='w-[150px]' src={vortex} alt="" />
@@ -39,17 +39,17 @@ const About = () => {
       </div>
 
       <div className="stats text-dark w-[90%] mx-auto">
-        <div className="stat border border-custom-ash p-[30px]">
+        <div className="stat border border-custom-pink p-[30px]">
             <h2 className='font-bold text-5xl'>42%</h2>
             <p>Years of experience</p>
         </div>
 
-        <div className="stat border border-custom-ash p-[30px]">
+        <div className="stat border border-custom-pink p-[30px]">
             <h2 className='font-bold text-5xl'>73+</h2>
             <p>Agency members</p>
         </div>
 
-        <div className="stat border border-custom-ash p-[30px]">
+        <div className="stat border border-custom-pink p-[30px]">
             <h2 className='font-bold text-5xl'>5,0000</h2>
             <p>Projects complete</p>
         </div>

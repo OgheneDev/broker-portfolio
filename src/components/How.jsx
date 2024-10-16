@@ -3,8 +3,8 @@ import React from 'react'
 
 const How = () => {
   return (
-    <section className="how px-[20px] ">
-    <div className='bg-custom-pink pb-[50px] '>
+    <section className="how px-[20px] mb-[60px]">
+    <div className='pb-[50px]'>
       <article className='flex flex-col gap-[20px] mb-[20px] '>
         <span className='text-dark-accent uppercase'>How we work</span>
         <h1 className='text-3xl text-dark font-bold'>Making Your Projects 

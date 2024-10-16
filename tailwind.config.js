@@ -14,7 +14,9 @@ export default {
         'dark-accent': '#EF6D58',
         'dark': '#391400',
         'dark-grey': '#391400',
-        'custom-ash': '#FDF0E9'
+        'custom-ash': '#FDF0E9',
+        'custom-idk': '#EF6C57',
+        'custom-yellow': '#F7CB47'
       }
     },
   },

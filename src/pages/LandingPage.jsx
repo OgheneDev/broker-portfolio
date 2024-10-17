@@ -11,6 +11,7 @@ import Team from '../components/Team'
 import Founder from '../components/Founder'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
+import Blog from '../components/Blog'
 
 const LandingPage = () => {
   return (
@@ -27,6 +28,7 @@ const LandingPage = () => {
       <Founder />
       <Testimonials />
       <Pricing />
+      <Blog />
     </>
   )
 }

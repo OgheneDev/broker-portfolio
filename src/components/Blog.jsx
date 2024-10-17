@@ -5,7 +5,7 @@ import market from '../assets/images/market.png'
 
 const Blog = () => {
   return (
-    <section className='bg-custom-ash px-[20px] py-[70px]'>
+    <section className='bg-custom-ash px-[20px] py-[50px] border border-b-custom-pink'>
       <article className="flex flex-col gap-[20px] mb-[30px]">
         <span className='uppercase text-dark-accent'>Our bLOG</span>
         <h1 className='text-4xl text-dark font-bold'>Latest Blog

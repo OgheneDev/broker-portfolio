@@ -12,6 +12,7 @@ import Founder from '../components/Founder'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import Blog from '../components/Blog'
+import NewsLetter from '../components/NewsLetter'
 
 const LandingPage = () => {
   return (
@@ -29,6 +30,7 @@ const LandingPage = () => {
       <Testimonials />
       <Pricing />
       <Blog />
+      <NewsLetter />
     </>
   )
 }

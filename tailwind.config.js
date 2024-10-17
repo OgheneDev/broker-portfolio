@@ -16,7 +16,8 @@ export default {
         'dark-grey': '#391400',
         'custom-ash': '#FDF0E9',
         'custom-idk': '#EF6C57',
-        'custom-yellow': '#F7CB47'
+        'custom-yellow': '#F7CB47',
+
       }
     },
   },

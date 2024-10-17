@@ -4,7 +4,7 @@ import hero from '../assets/images/pic.png'
 
 const Hero = () => {
   return (
-    <section className='hero flex flex-col bg-back-blue px-[20px] py-[15px]'>
+    <section className='hero flex flex-col bg-back-blue px-[20px] py-[75px]'>
       <div className="image-content bg-back-blue">
          <img src={hero} alt="" className="" />
       </div>

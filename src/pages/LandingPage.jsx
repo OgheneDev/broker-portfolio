@@ -13,6 +13,7 @@ import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import Blog from '../components/Blog'
 import NewsLetter from '../components/NewsLetter'
+import Footer from '../components/Footer'
 
 const LandingPage = () => {
   return (
@@ -31,6 +32,7 @@ const LandingPage = () => {
       <Pricing />
       <Blog />
       <NewsLetter />
+      <Footer />
     </>
   )
 }

@@ -4,7 +4,7 @@ import jenny from '../assets/images/jenny.png'
 
 const Service = () => {
   return (
-    <section className='service px-[20px] mb-[100px]'>
+    <section className='service px-[20px] pb-[100px] bg-custom-ash'>
       <div className="image-content mb-[30px]">
         <img src={service} alt="" />
       </div>

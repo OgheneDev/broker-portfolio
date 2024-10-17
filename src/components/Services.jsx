@@ -6,7 +6,7 @@ import gear from '../assets/images/gear.svg'
 
 const Services = () => {
   return (
-    <section className='services px-[20px] mb-[100px]'>
+    <section className='services px-[20px] pb-[100px] bg-custom-ash'>
       <article className='flex flex-col gap-[20px] mb-[30px]'>
       <span className='text-dark-accent uppercase'>Service</span>
       <h1 className='text-4xl text-dark font-bold'>How Our Agency

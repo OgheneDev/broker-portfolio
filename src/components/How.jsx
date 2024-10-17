@@ -1,9 +1,8 @@
-import { section } from 'framer-motion/client'
 import React from 'react'
 
 const How = () => {
   return (
-    <section className="how px-[20px] mb-[60px]">
+    <section className="how px-[20px] pb-[60px] bg-custom-ash">
     <div className='pb-[50px]'>
       <article className='flex flex-col gap-[20px] mb-[20px] '>
         <span className='text-dark-accent uppercase'>How we work</span>

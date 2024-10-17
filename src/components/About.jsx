@@ -8,7 +8,7 @@ import about from '../assets/images/about.png'
 
 const About = () => {
   return (
-    <section className='about mb-[70px]'>
+    <section className='about pb-[70px] bg-custom-ash'>
       <div className='flex flex-wrap p-[20px] pb-[50px] items-start justify-center gap-[20px]'>
         <img className='w-[150px]' src={digital} alt="" />
         <img className='w-[150px]' src={vortex} alt="" />

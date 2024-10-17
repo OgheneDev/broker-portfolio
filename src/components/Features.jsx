@@ -5,7 +5,7 @@ import path from '../assets/images/Path.svg'
 
 const Features = () => {
   return (
-    <section className='px-[20px]'>
+    <section className='px-[20px] bg-custom-ash'>
        <div className="image-container">
           <img src={feat} alt="" />
        </div>
@@ -18,7 +18,7 @@ const Features = () => {
             <p className='text-dark text-[18px]'>Service range including technical skills, design, business understanding.</p>
          </article>
 
-         <ul className='text-dark-grey flex flex-col gap-[20px] mb-[100px]'>
+         <ul className='text-dark-grey flex flex-col gap-[20px] pb-[100px]'>
             <li className='flex gap-[20px]'>
                 <div className="check bg-custom-idk flex justify-center p-[5px]  w-fit rounded-[50%]"><img src={path} alt="" className='w-[15px]' /></div> 
                 Range including technical skills
@@ -34,7 +34,7 @@ const Features = () => {
          </ul>
        </div>
 
-       <div className="container mb-[100px]">
+       <div className="container pb-[100px]">
          <article className='flex flex-col gap-[20px] mb-[20px]'>
             <span className='uppercase text-dark-accent'>Features</span>
             <p className='text-dark text-[18px]'>Long run, and work as an extension of the merchant's team.</p>

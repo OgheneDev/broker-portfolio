@@ -1,26 +1,22 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import How from './components/How'
-import Features from './components/Features'
-import Service from './components/Service'
-import Services from './components/Services'
-import Work from './components/Work'
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
+import MainLayout from './layouts/MainLayout';
+import LandingPage from './pages/LandingPage';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<MainLayout />}>
+      <Route index element={<LandingPage />} />
+    </Route>
+  )
+);
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <How />
-      <Features />
-      <Service />
-      <Services />
-      <Work />
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
 export default App

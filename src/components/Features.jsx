@@ -6,7 +6,7 @@ import path from '../assets/images/Path.svg'
 const Features = () => {
   return (
     <section className='px-[20px] bg-custom-ash'>
-      <div className='md:flex md:flex-row-reverse md:justify-center md:py-[60px] md:gap-[100px]'>
+      <div className='md:flex md:flex-row-reverse md:justify-center md:py-[60px] md:px-[100px] md:gap-[100px]'>
       <div className="image-container">
           <img src={feat} alt="" className='md:w-[500px]' />
        </div>
@@ -43,7 +43,7 @@ const Features = () => {
          </article>
 
          <div className="cards text-dark md:flex md:items-end">
-             <div className="card w-[90%] bg-white p-[30px] mx-auto border border-custom-pink md:w-[450px]">
+             <div className="card w-[90%] bg-white p-[30px] mx-auto border border-custom-pink">
                 <div className='bg-custom-idk w-fit mb-[30px] p-[15px] rounded-[50%]'><img src={pro} alt="" className='w-[30px]' /></div>
                 <h4 className='font-bold text-dark text-2xl mb-[20px]'>Professional</h4>
                 <p>Full service range including technical skills, design.</p>

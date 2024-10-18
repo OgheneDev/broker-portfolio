@@ -22,13 +22,13 @@ const EventCard = ({ date, month, year, time, title, description }) => (
 
 const Events = () => {
   return (
-    <div className="bg-back-blue px-[20px] py-[50px]">
-      <div className="text-center mb-[20px] flex flex-col gap-[20px]">
+    <div className="bg-back-blue px-[20px] py-[50px] md:py-0">
+      <div className="text-center mb-[20px] md:mb-[40px] flex flex-col gap-[20px]">
         <p className="text-dark-accent uppercase">Events</p>
         <h2 className="text-white text-4xl font-bold">Explore Future<br/>Conferences</h2>
       </div>
       
-      <div className="flex flex-col gap-[20px]">
+      <div className="flex flex-col gap-[20px] md:flex-row md:px-[150px]">
       <EventCard 
         date="3"
         month="November"
@@ -58,7 +58,7 @@ const Events = () => {
       </div>
       
       <div className='flex justify-center mt-[30px]'>
-      <button className="w-fit text-white border border-white px-[30px] py-[5px] ">
+      <button className="w-fit text-white border border-white px-[30px] py-[5px] md:mb-[20px]">
         EXPLORE MORE
       </button>
       </div>

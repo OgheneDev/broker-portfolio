@@ -9,9 +9,9 @@ const Team = () => {
         <h1 className='text-white font-bold text-4xl'>Teams Of Designers and Developers</h1>
       </article>
 
-      <div className="image-container">
+      <div className="image-container w-fit">
         <div>
-            <img src={azah} alt="" />
+            <img src={azah} alt="" className='w-fit' />
         </div>
       </div>
     </section>

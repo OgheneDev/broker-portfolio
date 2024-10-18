@@ -29,7 +29,6 @@ const LandingPage = () => {
       <Team />
       <Founder />
       <Testimonials />
-      <Pricing />
       <Blog />
       <NewsLetter />
     </>

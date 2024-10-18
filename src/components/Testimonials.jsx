@@ -8,13 +8,13 @@ import maria from '../assets/images/maria.png'
 const Testimonials = () => {
   return (
     <section className='bg-custom-ash px-[20px] pt-[70px]'>
-      <article className='text-center flex gap-[20px] flex-col font-bold text-[18px] mb-[30px]'>
+      <article className='text-center flex gap-[20px] flex-col font-bold text-[18px] md:mb-[50px] mb-[30px]'>
         <span className='text-dark-accent uppercase'>Testimonials</span>
         <h1 className='text-dark text-3xl font-bold'>What Our 
         Clients Saying</h1>
       </article>
 
-      <div className="cards mb-[30px]">
+      <div className="cards mb-[30px] md:grid md:grid-cols-2 md:gap-4 md:px-[150px]">
         <div className="card bg-white px-[20px] py-[30px] border border-custom-pink rounded">
            <img src={rate} alt="" className='mb-[30px]' />
 

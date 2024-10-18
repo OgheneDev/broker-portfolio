@@ -5,16 +5,18 @@ import market from '../assets/images/market.png'
 
 const Blog = () => {
   return (
-    <section className='bg-custom-ash px-[20px] py-[50px] border border-b-custom-pink'>
-      <article className="flex flex-col gap-[20px] mb-[30px]">
+    <section className='bg-custom-ash px-[20px] py-[50px] border border-b-custom-pink md:px-[150px]'>
+      <div className='md:flex md:justify-between md:items-end'>
+      <article className="flex flex-col gap-[20px] mb-[30px] md:mb-[50px]">
         <span className='uppercase text-dark-accent'>Our bLOG</span>
         <h1 className='text-4xl text-dark font-bold'>Latest Blog
         Articles</h1>
       </article>
 
       <button className='bg-white text-dark font-bold uppercase py-[10px] px-[30px] mb-[50px]'>Discover All</button>
+      </div>
 
-      <div className="cards flex flex-col gap-[30px]">
+      <div className="cards flex flex-col gap-[30px] md:flex-row ">
         <div className="card">
          <div className="image-container mb-[20px]">
             <img src={stories} alt="" />

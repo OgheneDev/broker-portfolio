@@ -3,7 +3,7 @@ import React from 'react'
 const How = () => {
   return (
     <div className="bg-custom-ash">
-      <section className="how px-[20px] pb-[60px] bg-custom-ash flex md:mx-[100px] md:gap-[100px] justify-center md:py-[20px]">
+      <section className="how px-[20px] pb-[60px] bg-custom-ash md:flex md:mx-[100px] md:gap-[100px] justify-center md:py-[20px]">
     <div className='pb-[50px] md:w-[400px]'>
       <article className='flex flex-col gap-[20px] mb-[20px] '>
         <span className='text-dark-accent uppercase'>How we work</span>

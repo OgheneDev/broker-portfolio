@@ -11,7 +11,7 @@ const Features = () => {
           <img src={feat} alt="" className='md:w-[500px]' />
        </div>
 
-       <div className="text-content md:w-[400px]">
+       <div className="text-content md:w-[450px]">
          <article className='flex flex-col gap-[20px] mb-[20px]'>
             <span className='uppercase text-dark-accent'>Features</span>
             <h1 className='text-4xl font-bold text-dark'>Give Your Site 

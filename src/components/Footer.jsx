@@ -1,8 +1,12 @@
 import React from 'react'
+import fb from '../assets/images/facebook.svg'
+import tw from '../assets/images/twitter.svg'
+import insta from '../assets/images/instagram.svg'
 
 const Footer = () => {
   return (
     <footer className='bg-custom-ash px-[20px] py-[40px] text-center'>
+      <div className='border-b border-b-custom-pink px-[30px] pb-[20px]'>
       <div className="logo text-dark font-bold text-[25px] mb-[40px]">
         Agency
       </div>
@@ -25,6 +29,23 @@ const Footer = () => {
             <li>Marketing</li>
             <li>See More</li>
         </ul>
+      </div>
+
+      <div className="socials flex justify-center mt-[60px] gap-[20px]">
+        <div className="fb bg-custom-idk w-fit py-[12px] px-[15px] rounded-[50%]"><img src={fb} alt="" className='w-[10px]' /></div>
+        <div className="fb bg-custom-idk w-fit py-[13px] px-[15px] rounded-[50%]"><img src={tw} alt="" className='w-[15px]' /></div>
+        <div className="fb bg-custom-idk w-fit py-[12px] px-[15px] rounded-[50%]"><img src={insta} alt="" className='w-[15px]' /></div>
+      </div>
+      </div>
+
+      <div className='pt-[50px] px-[30px]'>
+        <p className='text-dark-grey text-[20px] px-[20px] mb-[35px]'>Copyright © 2022 Laaqiq. 
+        All Rights Reserved.</p>
+
+        <div className="flex justify-between text-dark-grey text-[18px]">
+          <p>Terms Of Use</p>
+          <p>Privacy Policy</p>
+        </div>
       </div>
     </footer>
   )

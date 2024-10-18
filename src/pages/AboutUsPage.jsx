@@ -1,10 +1,14 @@
 import React from 'react'
+import Team from '../components/Team'
 import pro from '../assets/images/pro.svg'
 import vid from '../assets/images/vid.png'
 import plant from '../assets/images/plant.png'
 import office from '../assets/images/line.png'
 import laptop from '../assets/images/laptop.png'
 import bag from '../assets/images/bag.png'
+import rate from '../assets/images/rate.png'
+import alan from '../assets/images/alan.png'
+import help from '../assets/images/help.png'
 
 const AboutUsPage = () => {
   return (
@@ -76,7 +80,43 @@ const AboutUsPage = () => {
         </div>
       </div>
        </div>
+        <Team />
 
+        <section>
+            <article className='bg-back-blue text-center px-[20px] py-[40px]'>
+                <span className='text-dark-accent uppercase text-[18px] '>Testimonials</span>
+                <h1 className='text-4xl text-white mt-[20px] font-bold'>What Our 
+                Clients Saying</h1>
+            </article>
+
+            <div className="card bg-white px-[30px] py-[50px] border border-custom-pink rounded">
+           <img src={rate} alt="" className='mb-[30px]' />
+
+           <p className='text-dark-grey text-[18px] mb-[30px] leading-[2.2rem]'>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+
+           <div className='flex gap-[20px]'>
+            <img src={alan} alt="" />
+            <article>
+                <h5 className='text-dark text-[18px] font-bold'>Alan Martí</h5>
+                <p className='text-dark-grey'>Meta Inc.</p>
+            </article>
+           </div>
+        </div>
+        </section>
+
+        <div className="bg-custom-ash">
+        <div className="help bg-custom-idk px-[20px] w-[90%] mx-auto py-[30px] rounded">
+         <div className="image-container mb-[30px]">
+            <img src={help} alt="" />
+         </div>
+
+         <div className="text-content">
+            <h1 className='text-white text-5xl font-bold mb-[20px]'>We’re Help To Build Your Dream Project</h1>
+            <p className='text-light-grey text-[18px] mb-[30px]'>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+            <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>Contact Us</button>
+         </div>
+      </div>
+        </div>
     </div>
   )
 }

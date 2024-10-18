@@ -17,10 +17,10 @@ const Navbar = () => {
       <div className={`menu fixed w-full top-[70px] ${isOpen ? 'translate-x-0' : '-translate-x-full'} left-0 transition-transform duration-200 ease-in-out h-screen bg-back-blue py-[30px]`}>
         <ul className='flex flex-col items-center gap-[30px] text-white text-[18px]'>
           <li><NavLink to='/about'>About Us</NavLink></li>
-          <li>Services</li>
+          <li><NavLink to='/services'>Services</NavLink></li>
           <li>Stocks</li>
           <li>Remodelling Projects</li>
-          <li><button>Contact</button></li>
+          <li><Link to='/contact'><button>Contact</button></Link></li>
         </ul>
       </div>
 

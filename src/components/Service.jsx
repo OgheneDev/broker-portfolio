@@ -4,11 +4,12 @@ import jenny from '../assets/images/jenny.png'
 
 const Service = () => {
   return (
-    <section className='service px-[20px] pb-[100px] bg-custom-ash'>
+    <section className='service px-[20px] pb-[100px] bg-custom-ash md:flex md:px-[150px] md:justify-center md:gap-[100px]'>
       <div className="image-content mb-[30px]">
-        <img src={service} alt="" />
+        <img src={service} alt="" className='w-[500px]' />
       </div>
 
+      <div className='md:w-[400px]'>
       <div className="text-content">
         <article className='flex flex-col gap-[20px] mb-[30px]'>
         <span className='text-dark-accent uppercase'>Service</span>
@@ -25,6 +26,7 @@ const Service = () => {
         </article>
       </div>
       <button className='bg-white py-[5px] px-[30px] uppercase font-bold'>Explore</button>
+      </div>
     </section>
   )
 }

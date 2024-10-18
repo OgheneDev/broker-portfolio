@@ -2,8 +2,9 @@ import React from 'react'
 
 const How = () => {
   return (
-    <section className="how px-[20px] pb-[60px] bg-custom-ash">
-    <div className='pb-[50px]'>
+    <div className="bg-custom-ash">
+      <section className="how px-[20px] pb-[60px] bg-custom-ash flex md:mx-[100px] md:gap-[100px] justify-center md:py-[20px]">
+    <div className='pb-[50px] md:w-[400px]'>
       <article className='flex flex-col gap-[20px] mb-[20px] '>
         <span className='text-dark-accent uppercase'>How we work</span>
         <h1 className='text-3xl text-dark font-bold'>Making Your Projects 
@@ -12,7 +13,7 @@ const How = () => {
       <p className='text-dark-grey'>Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.</p>
     </div>
 
-    <div className='px-[10px] flex flex-col gap-[30px]'>
+    <div className='px-[10px] flex flex-col gap-[30px] md:mt-[30px]'>
        <div className='flex gap-[30px]'>
          <h1 className='font-bold text-6xl text-dark'>1</h1>
          <p className='text-dark text-2xl font-bold'>Full service range including</p>
@@ -29,6 +30,7 @@ const How = () => {
        </div>
     </div>
     </section>
+    </div>
   )
 }
 

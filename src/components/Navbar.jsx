@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='bg-back-blue items-center w-full fixed top-0 z-10 flex justify-between px-[20px] py-[10px]'>
+    <nav className='bg-back-blue items-center w-full fixed top-0 z-10 flex justify-between px-[20px] md:px-[100px] py-[10px]'>
       <div className="logo">
         <Link to='/'><img src={logo} alt="Logo" /></Link>
       </div>

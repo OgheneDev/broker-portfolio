@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import digital from '../assets/images/digi.png'
 import vortex from '../assets/images/vortex.png'
 import travel from '../assets/images/travel.png'
@@ -34,7 +35,11 @@ const About = () => {
                 <p className='text-[12px] text-dark-grey'>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p>
             </article>
 
-            <button className='bg-white text-dark py-[5px] px-[15px] uppercase font-bold'>About us</button>
+            <Link to='/about'>
+             <button className='bg-white text-dark py-[5px] px-[15px] uppercase font-bold'>
+              About us
+             </button>
+            </Link>
          </div>
       </div>
 

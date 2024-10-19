@@ -54,7 +54,11 @@ const NewsLetter = () => {
          <div className="text-content md:w-[500px]">
             <h1 className='text-white text-5xl md:text-4xl font-bold mb-[20px]'>We’re Help To Build Your Dream Project</h1>
             <p className='text-light-grey md:text-[16px] text-[18px] mb-[30px]'>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
-            <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>Contact Us</button>
+            <Link to='/contact'>
+            <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>
+              Contact Us
+            </button>
+            </Link>
          </div>
       </div>
     </section>

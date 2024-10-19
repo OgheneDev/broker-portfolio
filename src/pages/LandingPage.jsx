@@ -14,7 +14,6 @@ import Pricing from '../components/Pricing'
 import Blog from '../components/Blog'
 import NewsLetter from '../components/NewsLetter'
 
-
 const LandingPage = () => {
   return (
     <>
@@ -29,7 +28,9 @@ const LandingPage = () => {
       <Team />
       <Founder />
       <Testimonials />
-      <Blog />
+      <div id="blog">
+        <Blog />
+      </div>
       <NewsLetter />
     </>
   )

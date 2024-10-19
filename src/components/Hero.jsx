@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import hero from '../assets/images/pic.png'
 
 
@@ -18,7 +19,11 @@ const Hero = () => {
         <p className='text-light-grey leading-normal mb-[20px]'>Agency provides a full service range including technical skills, design, business understanding.</p>
         <div className="buttons flex justify-between md:justify-start md:gap-[30px]">
             <button className='bg-light-accent text-white py-[5px] px-[20px] rounded'>How We Work</button>
-            <button className='border border-white text-white py-[5px] px-[20px] rounded'>Contact Us</button>
+           <Link to='/contact'>
+            <button className='border border-white text-white py-[5px] px-[20px] rounded'>
+              Contact Us
+             </button>
+           </Link>
         </div>
       </div>
     </section>

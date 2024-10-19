@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link'
 import fb from '../assets/images/facebook.svg'
 import tw from '../assets/images/twitter.svg'
 import insta from '../assets/images/instagram.svg'
@@ -14,10 +15,10 @@ const Footer = () => {
       <div className="menu mb-[60px]">
         <label className='uppercase text-dark-accent text-[16px] md:text-[18px]'>Menu</label>
         <ul className='text-dark flex flex-col gap-[5px] mt-[30px] md:text-[16px]'>
-            <li>About</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <li><Link to='/about'>About</Link></li>
+            <li><Link to='/services'>Services</Link></li>
+            <li><HashLink smooth to='/#blog'>Blog</HashLink></li>
+            <li><Link to='/contact'>Contact</Link></li>
         </ul>
       </div>
 

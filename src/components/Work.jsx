@@ -2,6 +2,7 @@ import React from 'react';
 import start from '../assets/images/start.png';
 import lady from '../assets/images/lady.png';
 import star from '../assets/images/star.png';
+import { Link } from 'react-router-dom';
 
 const Work = () => {
   return (
@@ -59,7 +60,11 @@ const Work = () => {
         <article className='flex flex-col gap-[20px] items-start mb-[20px] md:mt-[30px]'>
           <span className='text-dark-accent uppercase'>Get Started</span>
           <p className='text-dark font-bold text-3xl'>We Help Companies Move Faster</p>
-          <button className='bg-custom-idk text-white py-[5px] px-[30px] rounded'>Contact Us</button>
+          <Link to='/contact'>
+          <button className='bg-custom-idk text-white py-[5px] px-[30px] rounded'>
+            Contact Us
+          </button>
+          </Link>
         </article>
 
         <div className="image-container mb-[20px] md:mt-[30px]">

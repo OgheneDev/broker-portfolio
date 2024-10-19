@@ -24,7 +24,7 @@ const Navbar = () => {
           <NavLink to='/about' className="text-white hover:text-gray-300">About</NavLink>
           <NavLink to='/services' className="text-white hover:text-gray-300">Services</NavLink>
           <HashLink smooth to='/#blog' className="text-white hover:text-gray-300">Blog</HashLink>
-          <NavLink to='' className="text-white hover:text-gray-300">Remodelling Projects</NavLink>
+          <NavLink to='/remodeling-projects' className="text-white hover:text-gray-300">Remodelling Projects</NavLink>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ const Navbar = () => {
           <li><NavLink to='/about'>About Us</NavLink></li>
           <li><NavLink to='/services'>Services</NavLink></li>
           <li><HashLink smooth to='/#blog'>Blog</HashLink></li>
-          <li>Remodelling Projects</li>
+          <li><NavLink to='/remodeling-projects'>Remodelling Projects</NavLink></li>
           <li><Link to='/contact'><button>Contact</button></Link></li>
         </ul>
       </div>

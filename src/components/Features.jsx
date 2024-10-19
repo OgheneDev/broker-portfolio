@@ -5,7 +5,7 @@ import path from '../assets/images/Path.svg'
 
 const Features = () => {
   return (
-    <section className='px-[20px] bg-custom-ash'>
+    <section className='px-[30px] bg-custom-ash'>
       <div className='md:flex md:flex-row-reverse md:justify-center md:py-[60px] md:px-[100px] md:gap-[100px]'>
       <div className="image-container">
           <img src={feat} alt="" className='md:w-[500px]' />
@@ -14,7 +14,7 @@ const Features = () => {
        <div className="text-content md:w-[450px]">
          <article className='flex flex-col gap-[20px] mb-[20px]'>
             <span className='uppercase text-dark-accent'>Features</span>
-            <h1 className='text-4xl font-bold text-dark'>Give Your Site 
+            <h1 className='text-4xl font-bold text-dark'>Give Your Building Project 
             A New Look</h1>
             <p className='text-dark text-[18px]'>Service range including technical skills, design, business understanding.</p>
          </article>

@@ -26,7 +26,7 @@ const How = () => {
 
        <div className='flex gap-[30px]'>
          <h1 className='font-bold text-6xl text-dark'>3</h1>
-         <p className='text-dark text-2xl font-bold'>Themselves in the merchant's</p>
+         <p className='text-dark text-2xl font-bold'>Themselves in the merchant's shoe's</p>
        </div>
     </div>
     </section>

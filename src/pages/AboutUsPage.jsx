@@ -18,7 +18,7 @@ const AboutUsPage = () => {
     <div className='about'>
       <header className='bg-back-blue text-center px-[20px] pt-[130px] pb-[40px]'>
         <h1 className='text-white text-6xl md:text-5xl font-bold mb-[20px]'>About Us</h1>
-        <p className='text-light-grey text-[18px]'>Agency provides a full service range including technical skills, design, business understanding.</p>
+        <p className='text-light-grey text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
       </header>
 
       <section className='bg-custom-ash px-[30px] py-[60px] md:flex md:gap-[100px] md:px-[100px] md:justify-center'>
@@ -28,7 +28,10 @@ const AboutUsPage = () => {
             Design Agency</h1>
         </article>
 
-        <p className='text-[18px] md:text-[14px] md:w-[450px] text-dark-grey'>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team. A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+        <p className='text-[18px] md:text-[14px] md:w-[450px] text-dark-grey'>Welcome to Novak Investments and Construction LLC, where life innovation meets reliability in the world of construction and investment. Founded by Joshua Novak, a passionate civil engineer with roots in the Czech Republic and a thriving career in the United States, our company is driven by a commitment to excellence and a vision for success.
+After moving to the U.S. in 2014, I graduated with a Master’s degree in Civil Engineering from Arizona State University, equipping myself with the knowledge and skills necessary to excel in the building industry. My experience and education serve as the foundation for our company, which aims to transform dreams into tangible realities.
+At Novak Investments and Construction LLC, we specialize in construction and property development, dedicated to delivering high-quality projects that exceed our clients’ expectations. We understand that trust and reliability are paramount in this industry. This is why our team is committed to honesty, transparency, and a client-first approach in every endeavor we undertake.
+</p>
       </section>
 
       <div className="image-container md:flex bg-custom-ash px-[30px] pb-[60px] md:px-[150px] md:gap-[30px]">
@@ -47,9 +50,7 @@ const AboutUsPage = () => {
       <div className="bg-custom-ash">
       <div className="container pb-[100px] bg-custom-ash px-[30px] md:flex md:px-[150px] md:gap-[50px]">
          <article className='flex flex-col gap-[30px] mb-[20px]'>
-            <span className='uppercase text-dark-accent'>Features</span>
-            <p className='text-dark text-2xl'>Long run, and work as an extension of the merchant's team.</p>
-            <p className='text-[18px] text-dark-grey'>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension.</p>
+            <p className='text-dark-grey text-[14px]'>In addition to our construction services, I am also passionate about investment opportunities. My team and I have successfully guided numerous clients towards financial growth through intelligent stock investments. We take pride in helping our clients achieve their goals and build a successful future. As we look to the future, our ambition is to continue expanding our services, transforming properties, and creating lasting partnerships. We believe that success is best when shared, and we are dedicated to fostering an environment where our clients, partners, and team members can thrive.</p>
          </article>
 
          <div className="cards text-dark md:flex md:items-end">
@@ -98,7 +99,7 @@ const AboutUsPage = () => {
         <div className="card bg-white px-[20px] py-[30px] border border-custom-pink rounded">
            <img src={rate} alt="" className='mb-[30px]' />
 
-           <p className='text-dark-grey text-[18px] mb-[30px]'>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Mr Joshua has being a blessing, he literally changed my life and improved my credit score.</p>
 
            <div className='flex gap-[20px]'>
             <img src={alan} alt="" />
@@ -112,7 +113,7 @@ const AboutUsPage = () => {
         <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
            <img src={rate} alt="" className='mb-[30px]' />
 
-           <p className='text-dark-grey text-[18px] mb-[30px]'>Provide your business with a variety of digital solutions to promote your product or service online.</p>
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Nice Construction Planning and execution, He delivered exactly what I needed for my studio.</p>
 
            <div className='flex gap-[20px]'>
             <img src={rich} alt="" />
@@ -140,7 +141,7 @@ const AboutUsPage = () => {
         <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
            <img src={rate} alt="" className='mb-[30px]' />
 
-           <p className='text-dark-grey text-[18px] mb-[30px]'>Promote your product or service online and help you hit your marketing goals and grow your business.</p>
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Nice job done and good customer interaction.</p>
 
            <div className='flex gap-[20px]'>
             <img src={maria} alt="" />

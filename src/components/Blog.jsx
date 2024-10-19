@@ -24,7 +24,7 @@ const Blog = () => {
 
           <div className="text-container flex flex-col gap-[20px]">
             <p className='text-[22px] text-dark'>Stories</p>
-            <p className='text-3xl text-dark font-bold'>Agency is a business you hire to outsource</p>
+            <p className='text-3xl text-dark font-bold'>Novak is a business you hire to outsource</p>
             <span className='text-dark-grey text-[15px]'>5 Nov, 2021</span>
           </div>
         </div>

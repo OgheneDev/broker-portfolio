@@ -4,7 +4,7 @@ import jenny from '../assets/images/jenny.png'
 
 const Service = () => {
   return (
-    <section className='service px-[20px] pb-[100px] bg-custom-ash md:flex md:px-[150px] md:justify-center md:gap-[100px]'>
+    <section className='service px-[30px] pb-[100px] bg-custom-ash md:flex md:px-[150px] md:justify-center md:gap-[100px]'>
       <div className="image-content mb-[30px]">
         <img src={service} alt="" className='w-[500px]' />
       </div>
@@ -13,7 +13,8 @@ const Service = () => {
       <div className="text-content">
         <article className='flex flex-col gap-[20px] mb-[30px]'>
         <span className='text-dark-accent uppercase'>Service</span>
-        <h1 className='text-4xl text-dark font-bold'>Making Complex Digital Products</h1>
+        <h1 className='text-4xl text-dark font-bold'>Making Complex
+        Building Products</h1>
         <p className='text-dark text-[18px]'>Agency provides a full service range including technical skills, design, business.</p>
         </article>
       </div>

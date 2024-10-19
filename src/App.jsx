@@ -5,8 +5,7 @@ import LandingPage from './pages/LandingPage';
 import AboutUsPage from './pages/AboutUsPage';
 import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import PortfolioPage from './pages/PortfolioPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +14,7 @@ const router = createBrowserRouter(
       <Route path='about' element={<AboutUsPage />} />
       <Route path='services' element={<ServicesPage />} />
       <Route path='contact' element={<ContactPage />} />
+      <Route path='remodeling-projects' element={<PortfolioPage />} />
     </Route>
   )
 );

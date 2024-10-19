@@ -10,7 +10,7 @@ import about from '../assets/images/about.png'
 const About = () => {
   return (
     <section className='about pb-[70px] bg-custom-ash'>
-      <div className='flex flex-wrap p-[20px] pb-[50px] items-start justify-center md:justify-between md:border md:border-b-custom-pink md:py-[30px] md:px-[100px] gap-[20px]'>
+      <div className='flex flex-wrap p-[25px] pb-[50px] items-start justify-center md:justify-between md:border md:border-b-custom-pink md:py-[30px] md:px-[100px] gap-[20px]'>
         <img className='w-[150px] md:w-[100px]' src={digital} alt="" />
         <img className='w-[150px] md:w-[100px]' src={vortex} alt="" />
         <img className='w-[150px] md:w-[100px]' src={travel} alt="" />
@@ -26,8 +26,8 @@ const About = () => {
          <div className="text-content md:w-[400px]">
             <article className='flex flex-col gap-[20px] mb-[20px]'>
                 <span className='text-dark-accent uppercase'>About</span>
-                <h1 className='text-3xl text-dark font-bold'>An Experience 
-                Design Agency</h1>
+                <h1 className='text-3xl text-dark font-bold'>An Experienced 
+                Investment Agency</h1>
             </article>
 
             <article className='mb-[20px]'> 

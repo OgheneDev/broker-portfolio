@@ -18,7 +18,7 @@ const Testimonials = () => {
         <div className="card bg-white px-[20px] py-[30px] border border-custom-pink rounded">
            <img src={rate} alt="" className='mb-[30px]' />
 
-           <p className='text-dark-grey text-[18px] mb-[30px]'>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Mr Joshua has being a blessing, he literally changed my life and improved my credit score.</p>
 
            <div className='flex gap-[20px]'>
             <img src={alan} alt="" />
@@ -32,7 +32,7 @@ const Testimonials = () => {
         <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
            <img src={rate} alt="" className='mb-[30px]' />
 
-           <p className='text-dark-grey text-[18px] mb-[30px]'>Provide your business with a variety of digital solutions to promote your product or service online.</p>
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Nice Construction Planning and execution, He delivered exactly what I needed for my studio.</p>
 
            <div className='flex gap-[20px]'>
             <img src={rich} alt="" />
@@ -60,7 +60,7 @@ const Testimonials = () => {
         <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
            <img src={rate} alt="" className='mb-[30px]' />
 
-           <p className='text-dark-grey text-[18px] mb-[30px]'>Promote your product or service online and help you hit your marketing goals and grow your business.</p>
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Nice job done and good customer interaction.</p>
 
            <div className='flex gap-[20px]'>
             <img src={maria} alt="" />

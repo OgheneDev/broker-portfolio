@@ -20,21 +20,21 @@ const Team = () => {
   };
 
   return (
-    <section className='bg-back-blue md:px-[250px]'>
+    <section className='bg-back-blue md:px-[200px]'>
       <article className='flex flex-col gap-[20px]  px-[20px] py-[50px]'>
         <span className='text-dark-accent uppercase'>Team</span>
-        <h1 className='text-white font-bold text-4xl'>Teams Of Designers <br /> and Developers</h1>
+        <h1 className='text-white font-bold text-4xl'>Team of Skilled <br /> Builders and Invetment Professionas</h1>
       </article>
 
-      <div className="image-container w-fit pb-[100px] hidden md:block">
-        <div className='md:flex justify-between gap-[30px]' >
+      <div className="image-container  pb-[100px] hidden md:block">
+        <div className='md:flex gap-[30px] justify-between' >
             <div>
             <div className='border border-light-blue px-[20px] pt-[20px]'>
               <img src={azah} alt="" className='w-[150px]' />
             </div>
             <article className='mt-3'>
-              <p className='text-white font-bold'>Azah Anyeni</p>
-              <span className='text-light-grey text-[14px]'>Design</span>
+              <p className='text-white font-bold'>David Carter</p>
+              <span className='text-light-grey text-[14px]'>Designer</span>
             </article>
             </div>
             <div>
@@ -42,8 +42,8 @@ const Team = () => {
               <img src={roe} alt="" className='w-[150px]' />
             </div>
             <article className='mt-3'>
-              <p className='text-white font-bold'>Roelof Bekkenenks</p>
-              <span className='text-light-grey text-[14px]'>React Developer</span>
+              <p className='text-white font-bold'>Matthew Wrights</p>
+              <span className='text-light-grey text-[14px]'>Developer</span>
             </article>
             </div>
             <div>
@@ -51,17 +51,8 @@ const Team = () => {
               <img src={leo} alt="" className='w-[150px]' />
             </div>
             <article className='mt-3'>
-              <p className='text-white font-bold'>Leonardo Oliveira</p>
-              <span className='text-light-grey text-[14px]'>Illustrator</span>
-            </article>
-            </div>
-            <div>
-            <div className='border border-light-blue px-[20px] pt-[20px]'>
-              <img src={iza} alt="" className='w-[150px]' />
-            </div>
-            <article className='mt-3'>
-              <p className='text-white font-bold'>Izabella Tabakova</p>
-              <span className='text-light-grey text-[14px]'>Product Designer</span>
+              <p className='text-white font-bold'>Michael Thompson</p>
+              <span className='text-light-grey text-[14px]'>Budget Organizer</span>
             </article>
             </div>
         </div>
@@ -74,7 +65,7 @@ const Team = () => {
               <img src={azah} alt="" className='w-[150px]' />
             </div>
             <article className='mt-3 text-center pb-[20px]'>
-              <p className='text-white font-bold'>Azah Anyeni</p>
+              <p className='text-white font-bold'>David Carter</p>
               <span className='text-light-grey text-[14px]'>Design</span>
             </article>
             </div>
@@ -83,8 +74,8 @@ const Team = () => {
               <img src={roe} alt="" className='w-[150px]' />
             </div>
             <article className='mt-3 text-center pb-[20px]'>
-              <p className='text-white font-bold'>Roelof Bekkenenks</p>
-              <span className='text-light-grey text-[14px]'>React Developer</span>
+              <p className='text-white font-bold'>Matthew Wrights</p>
+              <span className='text-light-grey text-[14px]'>Developer</span>
             </article>
             </div>
             <div>
@@ -92,17 +83,8 @@ const Team = () => {
               <img src={leo} alt="" className='w-[150px]' />
             </div>
             <article className='mt-3 text-center pb-[20px]'>
-              <p className='text-white font-bold'>Leonardo Oliveira</p>
-              <span className='text-light-grey text-[14px]'>Illustrator</span>
-            </article>
-            </div>
-            <div>
-            <div className='border border-light-blue px-[20px] pt-[20px] w-[90%] mx-auto'>
-              <img src={iza} alt="" className='w-[150px]' />
-            </div>
-            <article className='mt-3 text-center pb-[20px]'>
-              <p className='text-white font-bold'>Izabella Tabakova</p>
-              <span className='text-light-grey text-[14px]'>Product Designer</span>
+              <p className='text-white font-bold'>Michael Thompson</p>
+              <span className='text-light-grey text-[14px]'>Budget Organizer</span>
             </article>
             </div>
         </Slider>

@@ -5,6 +5,8 @@ import LandingPage from './pages/LandingPage';
 import AboutUsPage from './pages/AboutUsPage';
 import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

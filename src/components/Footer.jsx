@@ -5,7 +5,7 @@ import insta from '../assets/images/instagram.svg'
 
 const Footer = () => {
   return (
-    <footer className='bg-custom-ash px-[20px] py-[40px] text-center md:px-[100px]'>
+    <footer className='bg-custom-ash px-[20px] py-[40px] md:pt-[100px] text-center md:px-[100px]'>
       <div className='border-b border-b-custom-pink px-[30px] pb-[20px] md:flex md:items-start md:justify-between'>
       <div className="logo text-dark font-bold text-[25px] mb-[40px]">
         Agency

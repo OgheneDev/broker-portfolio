@@ -17,6 +17,7 @@ export default {
         'custom-ash': '#FDF0E9',
         'custom-idk': '#EF6C57',
         'custom-yellow': '#F7CB47',
+        'light-blue': '#3A3C56'
 
       }
     },

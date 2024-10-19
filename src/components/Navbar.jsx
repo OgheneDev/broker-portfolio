@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import logo from '../assets/images/logo.svg';
 import menu from '../assets/images/menu.svg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location]);
 
   return (
     <nav className='bg-back-blue items-center w-full fixed top-0 z-10 flex justify-between px-[20px] md:px-[100px] py-[10px]'>

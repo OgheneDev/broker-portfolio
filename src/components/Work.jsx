@@ -45,7 +45,7 @@ const Work = () => {
         </div>
 
         {/* Explore More Button */}
-        <div className="flex justify-center mb-[100px] md:mt-[50px]">
+        <div className="flex justify-center mb-[100px] mt-[50px]">
           <button className='border border-white px-[30px] py-[5px] rounded-[5px] text-white uppercase'>Explore more</button>
         </div>
       </div>

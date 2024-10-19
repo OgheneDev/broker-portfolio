@@ -6,6 +6,41 @@ body, input, button{
   font-family: "Epilogue", sans-serif;
 }
 
-/*body{
-  background-color: #FDF0E9;
-}*/
+/* Make the dots bigger */
+.slick-dots li button:before {
+  font-size: 16px; /* Increase the font-size to make the dots larger */
+  background-color: transparent; /* Set the background to transparent */
+  border: 2px solid #FFFFFFA3; /* Make sure the border is thick enough to be visible */
+  border-radius: 50%; /* Keep the dots circular */
+  width: 12px; /* Same size as font-size */
+  height: 12px; /* Same size as font-size */
+  display: inline-block;
+  content: ''; /* Ensure the pseudo-element renders */
+}
+
+
+/* Active dot background color and border */
+.slick-dots li.slick-active button:before {
+  background-color: #EF6D58; /* Active dot fill color */
+  border-color: #EF6D58; /* Match the border color with the active fill */
+  width: 12px; /* Ensure same size as other dots */
+  height: 12px; /* Ensure same size as other dots */
+  border-radius: 50%; /* Ensure it's still circular */
+}
+
+/* Move dots up */
+.slick-dots {
+  position: absolute;
+  bottom: 1px; 
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Hide slider overflow */
+.mobile-slider {
+  overflow: hidden;
+}
+

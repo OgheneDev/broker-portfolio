@@ -18,17 +18,21 @@ const StockPage = () => {
         <p className='text-light-grey text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
       </header>
 
-      <section className="stocks grid md:px-[150px] md:grid-cols-2 md:gap-4 gap-[30px] px-[20px] py-[60px] md:py-[100px] bg-custom-ash">
-          <img src={first} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
-          <img src={second} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
-          <img src={third} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
-          <img src={fourth} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
-          <img src={fifth} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
-          <img src={sixth} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
-          <img src={seventh} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
-          <img src={eight} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
-          <img src={nine} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
-      </section>
+      <div className="bg-custom-ash">
+  <section className="stocks grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] justify-center mx-auto px-[20px] py-[60px] md:py-[100px] max-w-[1000px]">
+  <img src={seventh} className='w-[300px] h-auto mx-auto' />
+   <img src={fourth} className='w-[300px] h-auto mx-auto' />
+   <img src={fifth} className='w-[300px] h-auto mx-auto' />
+   <img src={third} className='w-[300px] h-auto mx-auto' />
+    <img src={sixth} className='w-[300px] h-auto mx-auto' />
+    <img src={second} className='w-[300px] h-auto mx-auto' />
+    <img src={eight} className='w-[300px] h-auto mx-auto' />
+    <img src={nine} className='w-[300px] h-auto mx-auto' />
+    <img src={first} className='w-[300px] h-auto mx-auto' />
+  </section>
+</div>
+
+
 
       {/* Help Section */}
       <div className="bg-custom-ash">

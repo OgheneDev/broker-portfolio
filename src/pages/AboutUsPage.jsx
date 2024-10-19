@@ -72,17 +72,17 @@ At Novak Investments and Construction LLC, we specialize in construction and pro
        <div className='bg-custom-ash pb-[100px]'>
        <div className="stats text-dark mx-auto w-[90%] md:flex md:justify-center">
         <div className="stat border border-custom-pink p-[30px] md:pr-[120px]">
-            <h2 className='font-bold text-4xl'>42%</h2>
+            <h2 className='font-bold text-4xl'>8</h2>
             <p>Years of experience</p>
         </div>
 
         <div className="stat border border-custom-pink p-[30px] md:pr-[120px]">
-            <h2 className='font-bold text-4xl'>73+</h2>
-            <p>Novak Investments and Construction LLC members</p>
+            <h2 className='font-bold text-4xl'>20+</h2>
+            <p>Agency members</p>
         </div>
 
         <div className="stat border border-custom-pink p-[30px] md:pr-[120px]">
-            <h2 className='font-bold text-4xl'>5,0000</h2>
+            <h2 className='font-bold text-4xl'>500</h2>
             <p>Projects complete</p>
         </div>
       </div>

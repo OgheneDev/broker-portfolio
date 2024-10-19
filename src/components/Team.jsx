@@ -1,99 +1,104 @@
-import React from 'react'
-import Slider from 'react-slick'
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import azah from '../assets/images/azah.png'
-import roe from '../assets/images/roe.png'
-import leo from '../assets/images/leo.png'
-import iza from '../assets/images/iza.png'
+import React, { useState, useRef, useEffect } from 'react';
+import azah from '../assets/images/azah.png';
+import roe from '../assets/images/roe.png';
+import leo from '../assets/images/leo.png';
 
 const Team = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const teamContainerRef = useRef(null);
+  const totalMembers = 3;
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 15000,
-  };
+  const teamMembers = [
+    { name: 'David Carter', role: 'Designer', imgSrc: azah },
+    { name: 'Matthew Wrights', role: 'Developer', imgSrc: roe },
+    { name: 'Michael Thompson', role: 'Budget Organizer', imgSrc: leo }
+  ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.innerWidth < 768) { // Only for mobile
+        const container = teamContainerRef.current;
+        const scrollPosition = container.scrollLeft;
+        const memberWidth = container.offsetWidth;
+        const currentIndex = Math.round(scrollPosition / memberWidth);
+        setActiveIndex(currentIndex);
+      }
+    };
+
+    const container = teamContainerRef.current;
+    container.addEventListener('scroll', handleScroll);
+
+    return () => container.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      if (window.innerWidth < 768) { // Only autoplay on mobile
+        const container = teamContainerRef.current;
+        const nextIndex = (activeIndex + 1) % totalMembers;
+        const memberWidth = container.offsetWidth;
+        container.scrollTo({
+          left: memberWidth * nextIndex,
+          behavior: 'smooth',
+        });
+        setActiveIndex(nextIndex);
+      }
+    }, 15000);
+
+    return () => clearInterval(intervalId);
+  }, [activeIndex]);
 
   return (
     <section className='bg-back-blue md:px-[200px]'>
-      <article className='flex flex-col gap-[20px]  px-[20px] py-[50px]'>
+      <article className='flex flex-col gap-[20px] px-[20px] py-[50px]'>
         <span className='text-dark-accent uppercase'>Team</span>
-        <h1 className='text-white font-bold text-4xl'>Team of Skilled <br /> Builders and Invetment Professionas</h1>
+        <h1 className='text-white font-bold text-4xl'>
+          Team of Skilled <br /> Builders and Investment Professionals
+        </h1>
       </article>
 
-      <div className="image-container  pb-[100px] hidden md:block">
-        <div className='md:flex gap-[30px] justify-between' >
-            <div>
-            <div className='border border-light-blue px-[20px] pt-[20px]'>
-              <img src={azah} alt="" className='w-[150px]' />
-            </div>
-            <article className='mt-3'>
-              <p className='text-white font-bold'>David Carter</p>
-              <span className='text-light-grey text-[14px]'>Designer</span>
-            </article>
-            </div>
-            <div>
-            <div className='border border-light-blue px-[20px] pt-[20px]'>
-              <img src={roe} alt="" className='w-[150px]' />
-            </div>
-            <article className='mt-3'>
-              <p className='text-white font-bold'>Matthew Wrights</p>
-              <span className='text-light-grey text-[14px]'>Developer</span>
-            </article>
-            </div>
-            <div>
-            <div className='border border-light-blue px-[20px] pt-[20px]'>
-              <img src={leo} alt="" className='w-[150px]' />
-            </div>
-            <article className='mt-3'>
-              <p className='text-white font-bold'>Michael Thompson</p>
-              <span className='text-light-grey text-[14px]'>Budget Organizer</span>
-            </article>
-            </div>
-        </div>
+      <div
+        className="team-container flex overflow-x-auto md:overflow-x-visible snap-x snap-mandatory md:snap-none space-x-[30px] px-4 md:justify-between"
+        ref={teamContainerRef}
+      >
+        {teamMembers.map((member, index) => (
+          <div
+            key={index}
+            className="snap-center shrink-0 w-[75vw] md:w-[30%] p-4 border border-light-blue flex flex-col items-center"
+          >
+            <img src={member.imgSrc} alt={member.name} className="w-full md:w-[200px] h-auto object-cover" />
+            <p className="text-white font-bold mt-3">{member.name}</p>
+            <span className="text-light-grey text-[14px]">{member.role}</span>
+          </div>
+        ))}
       </div>
 
-      <div className="mobile-slider md:hidden">
-        <Slider {...settings} >
-        <div className=''>
-            <div className='border border-light-blue px-[20px] pt-[20px] w-[90%] mx-auto'>
-              <img src={azah} alt="" className='w-[150px]' />
-            </div>
-            <article className='mt-3 text-center pb-[20px]'>
-              <p className='text-white font-bold'>David Carter</p>
-              <span className='text-light-grey text-[14px]'>Design</span>
-            </article>
-            </div>
-            <div>
-            <div className='border border-light-blue px-[20px] pt-[20px] w-[90%] mx-auto'>
-              <img src={roe} alt="" className='w-[150px]' />
-            </div>
-            <article className='mt-3 text-center pb-[20px]'>
-              <p className='text-white font-bold'>Matthew Wrights</p>
-              <span className='text-light-grey text-[14px]'>Developer</span>
-            </article>
-            </div>
-            <div>
-            <div className='border border-light-blue px-[20px] pt-[20px] w-[90%] mx-auto'>
-              <img src={leo} alt="" className='w-[150px]' />
-            </div>
-            <article className='mt-3 text-center pb-[20px]'>
-              <p className='text-white font-bold'>Michael Thompson</p>
-              <span className='text-light-grey text-[14px]'>Budget Organizer</span>
-            </article>
-            </div>
-        </Slider>
+      <div className="indicator-dots flex justify-center mt-4 md:hidden">
+        {teamMembers.map((_, index) => (
+          <span
+            key={index}
+            className={`dot h-[15px] w-[15px] mx-2 rounded-full cursor-pointer ${
+              index === activeIndex
+                ? 'bg-[#EF6D58]'
+                : 'bg-transparent border border-white'
+            }`}
+            onClick={() => {
+              const container = teamContainerRef.current;
+              const memberWidth = container.offsetWidth;
+              container.scrollTo({
+                left: memberWidth * index,
+                behavior: 'smooth',
+              });
+              setActiveIndex(index);
+            }}
+          ></span>
+        ))}
       </div>
-
-
     </section>
-  )
-}
+  );
+};
 
-export default Team
+export default Team;
+
+
 

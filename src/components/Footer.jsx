@@ -26,9 +26,9 @@ const Footer = () => {
       <div className="service">
         <label className='uppercase text-dark-accent text-[16px] md:text-[18px]'>Service</label>
         <ul className='text-dark flex flex-col gap-[5px] mt-[30px] md:text-[16px]'>
-            <li>Design</li>
-            <li>Development</li>
-            <li>Marketing</li>
+            <li>Remodeling</li>
+            <li>Construction</li>
+            <li>Stocks</li>
             <li>See More</li>
         </ul>
       </div>

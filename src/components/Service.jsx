@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import service from '../assets/images/service.png'
 import jenny from '../assets/images/jenny.png'
 
@@ -26,7 +27,10 @@ const Service = () => {
             <p className='text-dark font-bold'>Jenny Murtaugh</p>
         </article>
       </div>
-      <button className='bg-white py-[5px] px-[30px] uppercase font-bold'>Explore</button>
+      <Link to='remodeling-projects'>
+      <button className='bg-white py-[5px] px-[30px] uppercase font-bold'>
+        Explore
+      </button></Link>
       </div>
     </section>
   )

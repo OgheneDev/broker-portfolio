@@ -18,7 +18,7 @@ const Hero = () => {
         <p className='text-light-grey leading-normal mb-[20px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
         <div className="buttons flex justify-between md:justify-start md:gap-[30px]">
             <Link to='/services'>
-            <button className='bg-light-accent text-white py-[5px] px-[20px] rounded'>'
+            <button className='bg-light-accent text-white py-[5px] px-[20px] rounded'>
               How We Work
             </button>
             </Link>

@@ -11,7 +11,7 @@ const Founder = () => {
       <article className='flex flex-col gap-[30px] md:w-[450px]'>
         <span className='text-dark-accent uppercase text-[18px]'>Founder Words</span>
 
-        <h3 className='text-3xl text-white'>Novak LLC is an agency you hire to outsource your digital marketing efforts</h3>
+        <h3 className='text-3xl text-white'>'Novak LLC is an agency you hire to outsource your digital marketing efforts'</h3>
 
         <article>
             <p className='text-white text-[18px] mb-[10px]'>Joshua Novak</p>

@@ -67,6 +67,47 @@ const Team = () => {
         </div>
       </div>
 
+      <div className="mobile-slider md:hidden">
+        <Slider {...settings} >
+        <div className=''>
+            <div className='border border-light-blue px-[20px] pt-[20px] w-[90%] mx-auto'>
+              <img src={azah} alt="" className='w-[150px]' />
+            </div>
+            <article className='mt-3 text-center pb-[20px]'>
+              <p className='text-white font-bold'>Azah Anyeni</p>
+              <span className='text-light-grey text-[14px]'>Design</span>
+            </article>
+            </div>
+            <div>
+            <div className='border border-light-blue px-[20px] pt-[20px] w-[90%] mx-auto'>
+              <img src={roe} alt="" className='w-[150px]' />
+            </div>
+            <article className='mt-3 text-center pb-[20px]'>
+              <p className='text-white font-bold'>Roelof Bekkenenks</p>
+              <span className='text-light-grey text-[14px]'>React Developer</span>
+            </article>
+            </div>
+            <div>
+            <div className='border border-light-blue px-[20px] pt-[20px] w-[90%] mx-auto'>
+              <img src={leo} alt="" className='w-[150px]' />
+            </div>
+            <article className='mt-3 text-center pb-[20px]'>
+              <p className='text-white font-bold'>Leonardo Oliveira</p>
+              <span className='text-light-grey text-[14px]'>Illustrator</span>
+            </article>
+            </div>
+            <div>
+            <div className='border border-light-blue px-[20px] pt-[20px] w-[90%] mx-auto'>
+              <img src={iza} alt="" className='w-[150px]' />
+            </div>
+            <article className='mt-3 text-center pb-[20px]'>
+              <p className='text-white font-bold'>Izabella Tabakova</p>
+              <span className='text-light-grey text-[14px]'>Product Designer</span>
+            </article>
+            </div>
+        </Slider>
+      </div>
+
 
     </section>
   )

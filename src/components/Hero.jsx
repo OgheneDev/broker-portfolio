@@ -13,11 +13,15 @@ const Hero = () => {
       <div className="text-content md:w-[600px]">
         <article className="mb-[20px] flex flex-col gap-[20px] md:gap-[30px]">
             <span className="uppercase text-light-accent font-bold">Modern Studio</span>
-            <h1 className='text-white font-bold text-5xl'>We're dedicated to building your dream spaces and empowering your financial success</h1>
+            <h1 className='text-white font-bold text-4xl'>We're dedicated to building your dream spaces and empowering your financial success</h1>
         </article>
         <p className='text-light-grey leading-normal mb-[20px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
         <div className="buttons flex justify-between md:justify-start md:gap-[30px]">
-            <button className='bg-light-accent text-white py-[5px] px-[20px] rounded'>How We Work</button>
+            <Link to='/services'>
+            <button className='bg-light-accent text-white py-[5px] px-[20px] rounded'>'
+              How We Work
+            </button>
+            </Link>
            <Link to='/contact'>
             <button className='border border-white text-white py-[5px] px-[20px] rounded'>
               Contact Us

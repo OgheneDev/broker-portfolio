@@ -5,8 +5,8 @@ const PortfolioPage = () => {
   return (
     <div className='portfolio'>
       <header className='bg-back-blue text-center px-[20px] pt-[130px] pb-[40px]'>
-        <h1 className='text-white text-6xl md:text-5xl font-bold mb-[20px]'>Remodeling Projects</h1>
-        <p className='text-light-grey text-[18px]'>Agency provides a full service range including technical skills, design, business understanding.</p>
+        <h1 className='text-white text-5xl md:text-5xl font-bold mb-[20px]'>Remodeling Projects</h1>
+        <p className='text-light-grey text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
       </header>
 
       {/* Projects Section */}
@@ -83,9 +83,13 @@ const PortfolioPage = () => {
           </div>
 
           <div className="text-content md:w-[500px]">
-            <h1 className='text-white text-5xl md:text-4xl font-bold mb-[20px]'>We’re Here To Build Your Dream Project</h1>
-            <p className='text-light-grey md:text-[16px] text-[18px] mb-[30px]'>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
-            <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>Contact Us</button>
+            <h1 className='text-white text-4xl md:text-4xl font-bold mb-[20px]'>We’re Here To Build Your Dream Project</h1>
+            <p className='text-light-grey md:text-[16px] text-[18px] mb-[30px]'>Novak Investments and Construction LLC  is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+            <Link to='/contact'>
+            <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>
+              Contact Us
+            </button>
+            </Link>
           </div>
         </div>
       </div>

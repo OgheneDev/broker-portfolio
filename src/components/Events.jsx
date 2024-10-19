@@ -36,7 +36,7 @@ const Events = () => {
           year="2021"
           time="9:00 am - 3:00 pm"
           title="Design Weeks"
-          description="Digital agency is a business you hire to outsource your digital."
+          description="Novak Investments and Construction LLC is a business you hire to outsource your digital."
         />
         
         <EventCard 

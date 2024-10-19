@@ -7,7 +7,7 @@ const ContactPage = () => {
     <div className='bg-custom-ash'>
       <header className='bg-back-blue text-center px-[20px] pt-[130px] pb-[40px] mb-[50px]'>
         <h1 className='text-white text-6xl font-bold mb-[20px]'>Contact</h1>
-        <p className='text-light-grey text-[18px]'>Agency provides a full service range including technical skills, design, business understanding.</p>
+        <p className='text-light-grey text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
       </header>
 
       <form action="" className='flex flex-col bg-white w-[90%] mx-auto gap-[20px] px-[25px] py-[50px] rounded md:w-[350px]'>

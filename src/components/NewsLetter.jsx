@@ -32,18 +32,18 @@ const NewsLetter = () => {
              <div className='bg-custom-idk p-[15px] rounded-[50%] w-fit mb-[30px]'>
                 <img src={phone} alt="" className='w-[35px] md:w-[15px]' />
              </div>
-             <span className='text-dark-accent text-2xl uppercase'>Phone</span>
+             <span className='text-dark-accent text-1xl uppercase'>Phone</span>
            </div>
-            <p className='text-dark text-2xl md:text-[16px]'>+1 (231) 366-143</p>
+            <p className='text-dark text-1xl md:text-[16px]'>+1 (231) 366-143</p>
         </div>
         <div className="card border border-custom-pink px-[20px] py-[30px] rounded md:pr-[150px]">
            <div className='flex items-center gap-[20px]'>
              <div className='bg-custom-idk p-[15px] rounded-[50%] w-fit mb-[30px]'>
                 <img src={email} alt="" className='w-[35px] md:w-[15px]' />
              </div>
-             <span className='text-dark-accent text-2xl uppercase'>Email</span>
+             <span className='text-dark-accent text-1xl uppercase'>Email</span>
            </div>
-            <p className='text-dark text-2xl md:text-[16px]' >novak14319@gmail.com</p>
+            <p className='text-dark text-1xl md:text-[16px]' >novak14319@gmail.com</p>
         </div>
       </div>
 
@@ -53,8 +53,8 @@ const NewsLetter = () => {
          </div>
 
          <div className="text-content md:w-[500px]">
-            <h1 className='text-white text-5xl md:text-4xl font-bold mb-[20px]'>We’re Help To Build Your Dream Project</h1>
-            <p className='text-light-grey md:text-[16px] text-[18px] mb-[30px]'>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+            <h1 className='text-white text-4xl md:text-4xl font-bold mb-[20px]'>We’re Help To Build Your Dream Project</h1>
+            <p className='text-light-grey md:text-[16px] text-[18px] mb-[30px]'>Novak Investments and Construction LLC  is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
             <Link to='/contact'>
             <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>
               Contact Us

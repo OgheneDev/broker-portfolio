@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Team from '../components/Team'
 import pro from '../assets/images/pro.svg'
 import vid from '../assets/images/vid.png'
@@ -17,7 +18,7 @@ const AboutUsPage = () => {
   return (
     <div className='about'>
       <header className='bg-back-blue text-center px-[20px] pt-[130px] pb-[40px]'>
-        <h1 className='text-white text-6xl md:text-5xl font-bold mb-[20px]'>About Us</h1>
+        <h1 className='text-white text-5xl font-bold mb-[20px]'>About Us</h1>
         <p className='text-light-grey text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
       </header>
 
@@ -71,17 +72,17 @@ At Novak Investments and Construction LLC, we specialize in construction and pro
        <div className='bg-custom-ash pb-[100px]'>
        <div className="stats text-dark mx-auto w-[90%] md:flex md:justify-center">
         <div className="stat border border-custom-pink p-[30px] md:pr-[120px]">
-            <h2 className='font-bold text-5xl'>42%</h2>
+            <h2 className='font-bold text-4xl'>42%</h2>
             <p>Years of experience</p>
         </div>
 
         <div className="stat border border-custom-pink p-[30px] md:pr-[120px]">
-            <h2 className='font-bold text-5xl'>73+</h2>
-            <p>Agency members</p>
+            <h2 className='font-bold text-4xl'>73+</h2>
+            <p>Novak Investments and Construction LLC members</p>
         </div>
 
         <div className="stat border border-custom-pink p-[30px] md:pr-[120px]">
-            <h2 className='font-bold text-5xl'>5,0000</h2>
+            <h2 className='font-bold text-4xl'>5,0000</h2>
             <p>Projects complete</p>
         </div>
       </div>
@@ -162,9 +163,13 @@ At Novak Investments and Construction LLC, we specialize in construction and pro
          </div>
 
          <div className="text-content md:w-[500px]">
-            <h1 className='text-white text-5xl md:text-4xl font-bold mb-[20px]'>We’re Help To Build Your Dream Project</h1>
-            <p className='text-light-grey md:text-[16px] text-[18px] mb-[30px]'>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
-            <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>Contact Us</button>
+            <h1 className='text-white text-4xl md:text-4xl font-bold mb-[20px]'>We’re Help To Build Your Dream Project</h1>
+            <p className='text-light-grey md:text-[16px] text-[18px] mb-[30px]'>Novak Investments and Construction LLC is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+            <Link to='/contact'>
+            <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>
+              Contact Us
+            </button>
+            </Link>
          </div>
       </div>
         </div>

@@ -18,7 +18,7 @@ const Services = () => {
            <div className='bg-custom-idk p-[15px] rounded-[50%] w-fit mb-[30px]'><img src={tv} alt="" className='w-[50px]' /></div>
            <article className='flex flex-col gap-[20px] mb-[30px]'>
              <h4 className='text-dark text-2xl font-bold'>Remodelling</h4>
-             <p className='text-dark-grey text-[18px]'>Agency provides a full service range including technical skills, design.</p>
+             <p className='text-dark-grey text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design.</p>
            </article>
            <button className='text-black font-bold'>Learn More</button>
         </div>

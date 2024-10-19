@@ -15,7 +15,7 @@ const Service = () => {
         <span className='text-dark-accent uppercase'>Service</span>
         <h1 className='text-4xl text-dark font-bold'>Making Complex
         Building Products</h1>
-        <p className='text-dark text-[18px]'>Agency provides a full service range including technical skills, design, business.</p>
+        <p className='text-dark text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business.</p>
         </article>
       </div>
 

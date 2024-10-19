@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import How from '../components/How'
 import tv from '../assets/images/tv.svg'
 import brief from '../assets/images/case.svg'
@@ -10,17 +11,17 @@ const ServicesPage = () => {
   return (
     <div className='services'>
      <header className='bg-back-blue text-center px-[20px] pt-[130px] pb-[40px]'>
-        <h1 className='text-white text-6xl md:text-5xl font-bold mb-[20px]'>Services</h1>
-        <p className='text-light-grey text-[18px]'>Agency provides a full service range including technical skills, design, business understanding.</p>
+        <h1 className='text-white text-5xl md:text-5xl font-bold mb-[20px]'>Services</h1>
+        <p className='text-light-grey text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
       </header>
 
       <section className='bg-custom-ash px-[30px] py-[60px] md:flex md:gap-[100px] md:px-[100px] md:justify-center'>
         <article>
             <span className='text-dark-accent uppercase text-[18px]'>Services</span>
-            <h1 className='text-dark text-4xl md:my-[20px] font-bold my-[30px]'>Digital agency is a <br /> business you hire to <br /> outsource your digital <br /> marketing efforts</h1>
+            <h1 className='text-dark text-4xl md:my-[20px] font-bold my-[30px]'>Novak Investments and Construction LLC is a <br /> business you hire to <br /> outsource your digital <br /> marketing efforts</h1>
         </article>
 
-        <p className='text-[18px] md:text-[14px] md:w-[450px] text-dark-grey leading-[2rem]'>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team. A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+        <p className='text-[18px] md:text-[14px] md:w-[450px] text-dark-grey leading-[2rem]'>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team. Novak Investments and Construction LLCis a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
       </section>
 
      <section className="s bg-custom-ash px-[20px] md:px-[150px] ">
@@ -93,9 +94,13 @@ const ServicesPage = () => {
          </div>
 
          <div className="text-content md:w-[500px]">
-            <h1 className='text-white text-5xl md:text-4xl font-bold mb-[20px]'>We’re Help To Build Your Dream Project</h1>
-            <p className='text-light-grey md:text-[16px] text-[18px] mb-[30px]'>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
-            <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>Contact Us</button>
+            <h1 className='text-white text-4xl md:text-4xl font-bold mb-[20px]'>We’re Help To Build Your Dream Project</h1>
+            <p className='text-light-grey md:text-[16px] text-[18px] mb-[30px]'>Novak Investments and Construction LLC  is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+            <Link to='/contact'>
+            <button className='text-dark font-bold py-[10px] px-[30px] uppercase bg-white rounded'>
+              Contact Us
+            </button>
+            </Link>
          </div>
       </div>
       </div>

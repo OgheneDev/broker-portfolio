@@ -52,7 +52,7 @@ const ServicesPage = () => {
       <How />
 
       <div className="bg-custom-ash pt-[30px]  md:pt-[100px]">
-      <div className="help md:mx-auto md:w-[90%] bg-custom-idk md:flex md:flex-row-reverse md:justify-center md:gap-[30px] md:py-[60px] px-[20px] py-[30px] rounded">
+      <div className="help mx-auto w-[90%] bg-custom-idk md:flex md:flex-row-reverse md:justify-center md:gap-[30px] md:py-[60px] px-[20px] py-[30px] rounded">
          <div className="image-container mb-[30px] md:mb-0">
             <img src={help} alt="" />
          </div>

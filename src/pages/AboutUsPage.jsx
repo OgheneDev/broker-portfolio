@@ -94,7 +94,7 @@ const AboutUsPage = () => {
                 Clients Saying</h1>
             </article>
 
-            <div className="cards bg-custom-ash mb-[30px] md:mb-0 md:py-[50px] md:grid md:grid-cols-2 md:gap-4 md:px-[150px]">
+            <div className="cards bg-custom-ash pb-[30px] md:mb-0 md:py-[50px] md:grid md:grid-cols-2 md:gap-4 md:px-[150px]">
         <div className="card bg-white px-[20px] py-[30px] border border-custom-pink rounded">
            <img src={rate} alt="" className='mb-[30px]' />
 
@@ -155,7 +155,7 @@ const AboutUsPage = () => {
         </section>
 
         <div className="bg-custom-ash">
-        <div className="help bg-custom-idk md:flex md:flex-row-reverse md:justify-center md:w-[90%] md:mx-auto md:gap-[30px] md:py-[60px] px-[20px] py-[30px] rounded">
+        <div className="help bg-custom-idk md:flex md:flex-row-reverse md:justify-center w-[90%] mx-auto md:gap-[30px] md:py-[60px] px-[20px] py-[30px] rounded">
          <div className="image-container mb-[30px] md:mb-0">
             <img src={help} alt="" />
          </div>

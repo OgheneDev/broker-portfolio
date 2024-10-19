@@ -10,7 +10,7 @@ const Hero = () => {
          <img src={hero} alt="" className="" />
       </div>
 
-      <div className="text-content ">
+      <div className="text-content md:w-[600px]">
         <article className="mb-[20px] flex flex-col gap-[20px] md:gap-[30px]">
             <span className="uppercase text-light-accent font-bold">Modern Studio</span>
             <h1 className='text-white font-bold text-5xl'>We're dedicated to building your dream spaces and empowering your financial success</h1>

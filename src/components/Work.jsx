@@ -21,8 +21,8 @@ const Work = () => {
             {/* Darkening effect on hover */}
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
             <div className="absolute inset-0 flex flex-col justify-end p-6">
-              <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Design</span>
-              <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">SOFA</h3>
+              <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Property</span>
+              <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Township Residencies</h3>
             </div>
           </div>
 
@@ -30,8 +30,8 @@ const Work = () => {
           <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/glenn.webp')]">
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
             <div className="absolute inset-0 flex flex-col justify-end p-6">
-              <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Branding</span>
-              <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Keyboard</h3>
+              <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Property</span>
+              <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">The Glenn</h3>
             </div>
           </div>
 
@@ -39,8 +39,8 @@ const Work = () => {
           <div className="relative aspect-[4/3] bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/green.webp')]">
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
             <div className="absolute inset-0 flex flex-col justify-end p-6">
-              <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Illustration</span>
-              <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Work Media</h3>
+              <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Property</span>
+              <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Greenwood Plaza</h3>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import tv from '../assets/images/tv.svg'
 import brief from '../assets/images/case.svg'
 import gear from '../assets/images/gear.svg'
 import help from '../assets/images/help.png'
+import path from '../assets/images/Path.svg'
 
 const ServicesPage = () => {
   return (
@@ -22,32 +23,66 @@ const ServicesPage = () => {
         <p className='text-[18px] md:text-[14px] md:w-[450px] text-dark-grey leading-[2rem]'>Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team. A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
       </section>
 
-      <div className="cards md:flex md:px-[150px] px-[20px] md:py-[100px] pb-[50px]  bg-custom-ash">
-        <div className="card border border-custom-pink px-[20px] py-[50px] rounded">
-           <div className='bg-custom-idk p-[15px] rounded-[50%] w-fit mb-[30px]'><img src={tv} alt="" className='w-[50px]' /></div>
-           <article className='flex flex-col gap-[20px] mb-[30px]'>
-             <h4 className='text-dark text-2xl font-bold'>Design</h4>
-             <p className='text-dark-grey text-[18px]'>Agency provides a full service range including technical skills, design.</p>
-           </article>
-           <button className='text-black font-bold'>Learn More</button>
+     <section className="s bg-custom-ash px-[20px] md:px-[150px] ">
+       <div className='flex flex-col md:flex-row gap-[10px] md:items-center mb-[20px]'>
+       <div className='bg-custom-idk p-[15px] rounded-[50%] w-fit mb-[30px]'><img src={tv} alt="" className='w-[50px]' /></div>
+        <h1 className='text-dark font-bold text-3xl'>Stock Investment Services</h1>
+       </div>
+
+       <div className="text-content md:w-[50%] md:ml-auto">
+       <h2 className='text-dark font-bold text-2xl mb-[20px]'>
+       Our stock investment services are designed to help you achieve financial success, no matter your level of experience.
+       </h2>
+
+       <p className='text-dark-grey mb-[20px]'>Business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+
+       <ul className='text-dark-grey flex flex-col gap-[20px] pb-[100px]'>
+            <li className='flex gap-[20px]'>
+                <div className="check bg-custom-idk flex justify-center p-[5px]  w-fit rounded-[50%]"><img src={path} alt="" className='w-[15px]' /></div> 
+                Personalized Portfolio Management:
+            </li>
+            <li className='flex gap-[20px]'>
+                <div className="check bg-custom-idk flex justify-center p-[5px]  w-fit rounded-[50%]"><img src={path} alt="" className='w-[15px]' /></div> 
+                Investment Advisory:
+            </li>
+            <li className='flex gap-[20px]'>
+                <div className="check bg-custom-idk flex justify-center p-[5px]  w-fit rounded-[50%]"><img src={path} alt="" className='w-[15px]' /></div> 
+                Risk Analysis & Mitigation:
+            </li>
+         </ul>
         </div>
-        <div className="card border border-custom-pink px-[20px] py-[50px] rounded">
-           <div className='bg-custom-idk p-[15px] rounded-[50%] w-fit mb-[30px]'><img src={brief} alt="" className='w-[50px]' /></div>
-           <article className='flex flex-col gap-[20px] mb-[30px]'>
-             <h4 className='text-dark text-2xl font-bold'>Development</h4>
-             <p className='text-dark-grey text-[18px]'>Full service range including technical skills, design, business.</p>
-           </article>
-           <button className='text-black font-bold'>Discover More</button>
-        </div>
-        <div className="card border border-custom-pink px-[20px] py-[50px] rounded">
-           <div className='bg-custom-idk p-[15px] rounded-[50%] w-fit mb-[30px]'><img src={gear} alt="" className='w-[50px]' /></div>
-           <article className='flex flex-col gap-[20px] mb-[30px]'>
-             <h4 className='text-dark text-2xl font-bold'>Marketing</h4>
-             <p className='text-dark-grey text-[18px]'>Technical skills, design, business understanding, ability.</p>
-           </article>
-           <button className='text-black font-bold'>Explore Now</button>
-        </div>
-      </div>
+     </section>
+
+
+     <section className="s bg-custom-ash px-[20px] md:px-[150px]">
+       <div className='flex flex-col md:flex-row gap-[10px] md:items-center mb-[20px]'>
+       <div className='bg-custom-idk p-[15px] rounded-[50%] w-fit mb-[30px]'><img src={brief} alt="" className='w-[50px]' /></div>
+        <h1 className='text-dark font-bold text-3xl'>Construction Services</h1>
+       </div>
+
+       <div className="text-content md:w-[50%] md:ml-auto">
+       <h2 className='text-dark font-bold text-2xl mb-[20px]'>
+       From concept to completion, our construction services deliver top-tier quality and attention to detail.
+       </h2>
+
+       <p className='text-dark-grey mb-[20px]'>Business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+
+       <ul className='text-dark-grey flex flex-col gap-[20px] pb-[100px]'>
+            <li className='flex gap-[20px]'>
+                <div className="check bg-custom-idk flex justify-center p-[5px]  w-fit rounded-[50%]"><img src={path} alt="" className='w-[15px]' /></div> 
+                Residential & Commercial Construct:
+            </li>
+            <li className='flex gap-[20px]'>
+                <div className="check bg-custom-idk flex justify-center p-[5px]  w-fit rounded-[50%]"><img src={path} alt="" className='w-[15px]' /></div> 
+                Design-Build & General Contracting:
+            </li>
+            <li className='flex gap-[20px]'>
+                <div className="check bg-custom-idk flex justify-center p-[5px]  w-fit rounded-[50%]"><img src={path} alt="" className='w-[15px]' /></div> 
+                Renovations & Expansions:
+            </li>
+         </ul>
+       </div>
+     </section>
 
       <How />
 

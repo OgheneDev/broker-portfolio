@@ -19,15 +19,15 @@ const StockPage = () => {
       </header>
 
       <section className="stocks grid md:px-[150px] md:grid-cols-2 md:gap-4 gap-[30px] px-[20px] py-[60px] md:py-[100px] bg-custom-ash">
-          <img src={first} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[500px]' />
-          <img src={second} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[500px]' />
-          <img src={third} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[500px]' />
-          <img src={fourth} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[500px]' />
-          <img src={fifth} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[500px]' />
-          <img src={sixth} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[500px]' />
-          <img src={seventh} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[500px]' />
-          <img src={eight} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[500px]' />
-          <img src={nine} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[500px]' />
+          <img src={first} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
+          <img src={second} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
+          <img src={third} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
+          <img src={fourth} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
+          <img src={fifth} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
+          <img src={sixth} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
+          <img src={seventh} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
+          <img src={eight} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
+          <img src={nine} className='md:w-[600px] h-[600px] w-[90%] mx-auto md:mx-0 md:h-[400px]' />
       </section>
 
       {/* Help Section */}

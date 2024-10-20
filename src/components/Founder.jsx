@@ -3,7 +3,7 @@ import bitmap from '../assets/images/Bitmap.png'
 
 const Founder = () => {
   return (
-    <section className='bg-back-blue px-[20px] py-[150px] pt-[130px] pb-[100px] md:justify-center md:flex md:gap-[50px] md:px-[100px]'>
+    <section className='bg-back-blue px-[20px] py-[150px] pt-[100px] pb-[100px] md:justify-center md:flex md:gap-[50px] md:px-[100px]'>
       <div className="image-container mb-[30px]  p-[20px] md:w-[500px] rounded-[10px]">
         <img src= {bitmap} alt="" />
       </div>

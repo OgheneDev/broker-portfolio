@@ -4,13 +4,14 @@ import { HashLink } from 'react-router-hash-link'
 import fb from '../assets/images/facebook.svg'
 import tw from '../assets/images/twitter.svg'
 import insta from '../assets/images/instagram.svg'
+import logo from '../assets/images/logo.png'
 
 const Footer = () => {
   return (
     <footer className='bg-custom-ash px-[20px] py-[40px] md:pt-[100px] text-center md:px-[100px]'>
       <div className='border-b border-b-custom-pink px-[30px] pb-[20px] md:flex md:items-start md:justify-between'>
-      <div className="logo text-dark font-bold text-[25px] mb-[40px]">
-      Novak Investments and Construction LLC
+      <div className="logo">
+        <Link to='/'><img src={logo} alt="Logo" /></Link>
       </div>
 
       <div className="menu mb-[60px]">

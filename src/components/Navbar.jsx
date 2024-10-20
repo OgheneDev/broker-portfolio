@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/logo.png';
 import menu from '../assets/images/menu.svg';
 
 const Navbar = () => {

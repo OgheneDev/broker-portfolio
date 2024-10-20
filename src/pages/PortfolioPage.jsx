@@ -18,11 +18,56 @@ const PortfolioPage = () => {
       {/* Projects Section */}
       <section className="projects py-[100px] md:grid-cols-2 md:px-[150px] md:gap-4 px-[30px] grid gap-[30px] bg-custom-ash">
         {/* Work Item 1 */}
-        <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/arcadia.webp')]">
+        <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/IMG-20241020-WA0073.jpg')]">
           <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
           <div className="absolute inset-0 flex flex-col justify-end p-6">
             <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
             <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Arcadia Apartment Homes</h3>
+          </div>
+        </div>
+
+        {/* Work Item 1 */}
+          <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/IMG-20241020-WA0074.jpg')]">
+          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 flex flex-col justify-end p-6">
+            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
+            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Arcadia Apartment Homes</h3>
+          </div>
+        </div>
+
+        {/* Work Item 1 */}
+        <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/IMG-20241020-WA0075.jpg')]">
+          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 flex flex-col justify-end p-6">
+            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
+            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">The Grove</h3>
+          </div>
+        </div>
+
+        {/* Work Item 1 */}
+        <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/IMG-20241020-WA0076.jpg')]">
+          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 flex flex-col justify-end p-6">
+            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
+            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">BB Living Trials Edge</h3>
+          </div>
+        </div>
+
+        {/* Work Item 1 */}
+          <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/IMG-20241020-WA0077.jpg')]">
+          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 flex flex-col justify-end p-6">
+            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
+            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Keene at the District</h3>
+          </div>
+        </div>
+
+        {/* Work Item 1 */}
+        <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/IMG-20241020-WA0078.jpg')]">
+          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 flex flex-col justify-end p-6">
+            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
+            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Hensley at the District</h3>
           </div>
         </div>
 
@@ -53,32 +98,7 @@ const PortfolioPage = () => {
           </div>
         </div>
 
-        {/* Work Item 5 */}
-        <div className="relative aspect-[4/3] bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/hensley.webp')]">
-          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
-          <div className="absolute inset-0 flex flex-col justify-end p-6">
-            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
-            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Hensley at the District</h3>
-          </div>
-        </div>
-
-        {/* Work Item 6 */}
-        <div className="relative aspect-[4/3] bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/villas.webp')]">
-          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
-          <div className="absolute inset-0 flex flex-col justify-end p-6">
-            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
-            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">AMLI Littleton Village</h3>
-          </div>
-        </div>
-
-        {/* Work Item 7 */}
-        <div className="relative aspect-[4/3] bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/keene.webp')]">
-          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
-          <div className="absolute inset-0 flex flex-col justify-end p-6">
-            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
-            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Keene at the District</h3>
-          </div>
-        </div>
+        
       </section>
 
 

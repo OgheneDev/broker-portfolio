@@ -63,11 +63,29 @@ const PortfolioPage = () => {
         </div>
 
         {/* Work Item 1 */}
-        <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/IMG-20241020-WA0078.jpg')]">
+        <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/db28975383ab30cb20e5599055579e9c-cc_ft_768.webp')]">
           <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
           <div className="absolute inset-0 flex flex-col justify-end p-6">
             <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
-            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Hensley at the District</h3>
+            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Villas at Holly</h3>
+          </div>
+        </div>
+
+        {/* Work Item 1 */}
+          <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/9566fbc07b93e7e9863d7a45085472af-cc_ft_768.webp')]">
+          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 flex flex-col justify-end p-6">
+            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
+            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Stratfotd Station</h3>
+          </div>
+        </div>
+
+        {/* Work Item 1 */}
+        <div className="relative aspect-square bg-cover bg-center rounded-lg overflow-hidden group bg-[url('/src/assets/images/9ac509bd0add1251517032134e0a0498-cc_ft_768.webp')]">
+          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 flex flex-col justify-end p-6">
+            <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
+            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Treasure Villa</h3>
           </div>
         </div>
 

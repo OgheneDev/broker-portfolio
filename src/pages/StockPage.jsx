@@ -9,6 +9,11 @@ import seventh from '../assets/images/IMG-20241017-WA0010.jpg';
 import eight from '../assets/images/IMG-20241017-WA0011.jpg';
 import nine from '../assets/images/IMG-20241017-WA0012.jpg';
 import help from '../assets/images/help.png';
+import rate from '../assets/images/rate.png'
+import alan from '../assets/images/alan.png'
+import rich from '../assets/images/rich.png'
+import griff from '../assets/images/griff.png'
+import maria from '../assets/images/maria.png'
 
 const StockPage = () => {
   return (
@@ -33,6 +38,75 @@ const StockPage = () => {
           <img src={first} className='w-[300px] h-auto mx-auto' />
         </section>
       </div>
+
+      <section className='bg-custom-ash px-[20px] pt-[70px]'>
+      <article className='text-center flex gap-[20px] flex-col font-bold text-[18px] md:mb-[50px] mb-[30px]'>
+        <span className='text-dark-accent uppercase'>Testimonials</span>
+        <h1 className='text-dark text-3xl font-bold'>What Our 
+        Clients Saying</h1>
+      </article>
+
+      <div className="cards mb-[30px] md:grid md:grid-cols-2 md:gap-4 md:px-[150px]">
+        <div className="card bg-white px-[20px] py-[30px] border border-custom-pink rounded">
+           <img src={rate} alt="" className='mb-[30px]' />
+
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Novak Investments helped me diversify my portfolio with confidence. Their strategies and market insights have consistently delivered strong returns.</p>
+
+           <div className='flex gap-[20px]'>
+            <img src={alan} alt="" />
+            <article>
+                <h5 className='text-dark text-[18px] font-bold'>James Caldwell</h5>
+                <p className='text-dark-grey'>Solarblue</p>
+            </article>
+           </div>
+        </div>
+
+        <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
+           <img src={rate} alt="" className='mb-[30px]' />
+
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Thanks to Novak, I've navigated the stock market with ease. Their guidance has been invaluable in growing my investments over the years.</p>
+
+           <div className='flex gap-[20px]'>
+            <img src={rich} alt="" />
+            <article>
+                <h5 className='text-dark text-[18px] font-bold'>Ryan Harris</h5>
+                <p className='text-dark-grey'>Aruban</p>
+            </article>
+           </div>
+        </div>
+
+        <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
+           <img src={rate} alt="" className='mb-[30px]' />
+
+           <p className='text-dark-grey text-[18px] mb-[30px]'>The team at Novak Investments is top-notch. Their expertise in stock market trends and risk management has been key to my financial success.</p>
+
+           <div className='flex gap-[20px]'>
+            <img src={griff} alt="" />
+            <article>
+                <h5 className='text-dark text-[18px] font-bold'>David Nguyen</h5>
+                <p className='text-dark-grey'>Twitor</p>
+            </article>
+           </div>
+        </div>
+
+        <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
+           <img src={rate} alt="" className='mb-[30px]' />
+
+           <p className='text-dark-grey text-[18px] mb-[30px]'>I was new to stock trading, but Novak Investments made it simple and stress-free. Their personalized approach gave me the confidence I needed.</p>
+
+           <div className='flex gap-[20px]'>
+            <img src={maria} alt="" />
+            <article>
+                <h5 className='text-dark text-[18px] font-bold'>Linda Matthews</h5>
+                <p className='text-dark-grey'>Redate</p>
+            </article>
+           </div>
+        </div>
+
+      </div>
+
+      <div className="flex justify-center pb-[80px]"><button className='bg-white px-[35px] py-[10px] rounded uppercase'>See All</button></div>
+    </section>
       
       {/* Help Section */}
       <div className="bg-custom-ash">

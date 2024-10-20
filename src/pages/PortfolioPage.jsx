@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import help from '../assets/images/help.png';
+import rate from '../assets/images/rate.png'
+import alan from '../assets/images/alan.png'
+import rich from '../assets/images/rich.png'
+import griff from '../assets/images/griff.png'
+import maria from '../assets/images/maria.png'
 
 const PortfolioPage = () => {
   return (
@@ -76,6 +81,77 @@ const PortfolioPage = () => {
         </div>
       </section>
 
+
+      <section className='bg-custom-ash px-[20px] pt-[70px]'>
+      <article className='text-center flex gap-[20px] flex-col font-bold text-[18px] md:mb-[50px] mb-[30px]'>
+        <span className='text-dark-accent uppercase'>Testimonials</span>
+        <h1 className='text-dark text-3xl font-bold'>What Our 
+        Clients Saying</h1>
+      </article>
+
+      <div className="cards mb-[30px] md:grid md:grid-cols-2 md:gap-4 md:px-[150px]">
+        <div className="card bg-white px-[20px] py-[30px] border border-custom-pink rounded">
+           <img src={rate} alt="" className='mb-[30px]' />
+
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Novak Investments and Construction exceeded our expectations. They turned our outdated house into a modern, comfortable home, staying on time and within budget. Fantastic experience!</p>
+
+           <div className='flex gap-[20px]'>
+            <img src={alan} alt="" />
+            <article>
+                <h5 className='text-dark text-[18px] font-bold'>Michael Turner</h5>
+                <p className='text-dark-grey'>Reke Ltd.</p>
+            </article>
+           </div>
+        </div>
+
+        <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
+           <img src={rate} alt="" className='mb-[30px]' />
+
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Nice Construction Planning and execution, He delivered exactly what I needed for my studio.</p>
+
+           <div className='flex gap-[20px]'>
+            <img src={rich} alt="" />
+            <article>
+                <h5 className='text-dark text-[18px] font-bold'>Richardo Kann</h5>
+                <p className='text-dark-grey'>Photogram</p>
+            </article>
+           </div>
+        </div>
+
+        <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
+           <img src={rate} alt="" className='mb-[30px]' />
+
+           <p className='text-dark-grey text-[18px] mb-[30px]'>Novak Investments and Construction LLC completely transformed our outdated kitchen and living space. Their team was professional, attentive, and delivered exactly what we envisioned. Highly recommend!</p>
+
+           <div className='flex gap-[20px]'>
+            <img src={griff} alt="" />
+            <article>
+                <h5 className='text-dark text-[18px] font-bold'>John Mitchell</h5>
+                <p className='text-dark-grey'>AlphaSeven</p>
+            </article>
+           </div>
+        </div>
+
+        <div className="card px-[20px] py-[30px] border border-custom-pink rounded">
+           <img src={rate} alt="" className='mb-[30px]' />
+
+           <p className='text-dark-grey text-[18px] mb-[30px]'>From start to finish, the remodeling process was seamless. Novak’s attention to detail and commitment to quality made all the difference. Our home feels brand new!</p>
+
+           <div className='flex gap-[20px]'>
+            <img src={maria} alt="" />
+            <article>
+                <h5 className='text-dark text-[18px] font-bold'>Emily Roberts</h5>
+                <p className='text-dark-grey'>Whochat</p>
+            </article>
+           </div>
+        </div>
+
+      </div>
+
+      <div className="flex justify-center pb-[80px]"><button className='bg-white px-[35px] py-[10px] rounded uppercase'>See All</button></div>
+    </section>
+
+
       {/* Help Section */}
       <div className="bg-custom-ash">
         <div className="help bg-custom-idk md:flex md:flex-row-reverse md:justify-center w-[90%] mx-auto md:gap-[30px] md:py-[50px] px-[20px] py-[30px] rounded">
@@ -94,6 +170,7 @@ const PortfolioPage = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

@@ -7,7 +7,7 @@ const PortfolioPage = () => {
     <div className='portfolio'>
       <header className='bg-back-blue text-center px-[20px] pt-[130px] pb-[40px]'>
         <h1 className='text-white text-5xl md:text-5xl font-bold mb-[20px]'>Remodeling Projects</h1>
-        <p className='text-light-grey text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
+        <p className='text-light-grey text-[18px]'>At Novak Investments and Construction LLC, we specialize in transforming homes into modern, functional spaces. Our project remodeling services focus on enhancing property value and meeting client needs through expert design, quality craftsmanship, and attention to detail. From concept to completion, we handle every aspect of your home remodeling project, ensuring a seamless and efficient process.</p>
       </header>
 
       {/* Projects Section */}
@@ -80,7 +80,7 @@ const PortfolioPage = () => {
       <div className="bg-custom-ash">
         <div className="help bg-custom-idk md:flex md:flex-row-reverse md:justify-center w-[90%] mx-auto md:gap-[30px] md:py-[50px] px-[20px] py-[30px] rounded">
           <div className="image-container mb-[30px] md:mb-0">
-            <img src={help} alt="Help" />
+            <img src={help} alt="Help" className='w-[300px]' />
           </div>
 
           <div className="text-content md:w-[500px]">

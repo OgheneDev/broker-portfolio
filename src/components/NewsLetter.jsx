@@ -99,7 +99,7 @@ const NewsLetter = () => {
 
       <div className="help bg-custom-idk md:flex md:flex-row-reverse md:justify-center md:gap-[30px] md:py-[60px] px-[20px] py-[30px] rounded">
         <div className="image-container mb-[30px] md:mb-0">
-          <img src={help} alt="Help illustration" />
+          <img src={help} alt="Help illustration" className='w-[300px]' />
         </div>
 
         <div className="text-content md:w-[500px]">

@@ -36,8 +36,6 @@ const Footer = () => {
 
       <div className="socials flex justify-center mt-[60px] gap-[20px] items-start">
         <a href="https://www.facebook.com/profile.php?id=61556416647196&mibextid=LQQJ4d"><div className="fb bg-custom-idk w-fit py-[12px] px-[15px] rounded-[50%]"><img src={fb} alt="" className='w-[10px]' /></div></a>
-        <div className="fb bg-custom-idk w-fit py-[13px] px-[15px] rounded-[50%]"><img src={tw} alt="" className='w-[15px]' /></div>
-        <div className="fb bg-custom-idk w-fit py-[12px] px-[15px] rounded-[50%]"><img src={insta} alt="" className='w-[15px]' /></div>
       </div>
       </div>
 

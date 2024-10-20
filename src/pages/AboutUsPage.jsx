@@ -159,7 +159,7 @@ At Novak Investments and Construction LLC, we specialize in construction and pro
         <div className="bg-custom-ash">
         <div className="help bg-custom-idk md:flex md:flex-row-reverse md:justify-center w-[90%] mx-auto md:gap-[30px] md:py-[60px] px-[20px] py-[30px] rounded">
          <div className="image-container mb-[30px] md:mb-0">
-            <img src={help} alt="" />
+            <img src={help} alt="" className='w-[300px]' />
          </div>
 
          <div className="text-content md:w-[500px]">

@@ -15,7 +15,7 @@ const StockPage = () => {
     <div>
       <header className='bg-back-blue text-center px-[20px] pt-[130px] pb-[40px]'>
         <h1 className='text-white text-6xl md:text-5xl font-bold mb-[20px]'>Stocks</h1>
-        <p className='text-light-grey text-[18px]'>Novak Investments and Construction LLC provides a full service range including technical skills, design, business understanding.</p>
+        <p className='text-light-grey text-[18px]'>Novak Investments and Construction LLC provides expert guidance in stock market investments. We help clients navigate the complexities of the market, offering tailored strategies to build and grow portfolios. With in-depth market analysis and a focus on risk management, we ensure informed decisions that align with your financial goals for long-term success.</p>
       </header>
       
       <div className="bg-custom-ash pt-[50px]">
@@ -38,7 +38,7 @@ const StockPage = () => {
       <div className="bg-custom-ash">
         <div className="help bg-custom-idk md:flex md:flex-row-reverse md:justify-center w-[90%] mx-auto md:gap-[30px] md:py-[50px] px-[20px] py-[30px] rounded">
           <div className="image-container mb-[30px] md:mb-0">
-            <img src={help} alt="Help" />
+            <img src={help} alt="Help" className='w-[300px]' />
           </div>
           
           <div className="text-content md:w-[500px]">

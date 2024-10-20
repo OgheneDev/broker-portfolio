@@ -48,7 +48,7 @@ const Work = () => {
         {/* Explore More Button */}
         <div className="flex justify-center mb-[100px] mt-[50px]">
           <Link to='/remodeling-projects'>
-          <button className='border border-white px-[30px] py-[5px] rounded-[5px] text-white uppercase'>
+          <button className='border border-white px-[35px] py-[10px] rounded-[5px] text-white uppercase'>
             Explore more
           </button>
           </Link>
@@ -65,7 +65,7 @@ const Work = () => {
           <span className='text-dark-accent uppercase'>Get Started</span>
           <p className='text-dark font-bold text-3xl'>We Help Companies Move Faster</p>
           <Link to='/contact'>
-          <button className='bg-custom-idk text-white py-[5px] px-[30px] rounded'>
+          <button className='bg-custom-idk text-white px-[35px] py-[10px] rounded'>
             Contact Us
           </button>
           </Link>

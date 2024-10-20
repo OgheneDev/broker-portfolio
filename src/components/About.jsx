@@ -36,7 +36,7 @@ const About = () => {
             </article>
 
             <Link to='/about'>
-             <button className='bg-white text-dark py-[5px] px-[15px] uppercase font-bold'>
+             <button className='bg-white text-dark px-[35px] py-[10px] rounded uppercase font-bold'>
               About us
              </button>
             </Link>

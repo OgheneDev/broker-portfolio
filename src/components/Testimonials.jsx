@@ -73,7 +73,7 @@ const Testimonials = () => {
 
       </div>
 
-      <div className="flex justify-center pb-[80px]"><button className='bg-white px-[30px] py-[5px] uppercase'>See All</button></div>
+      <div className="flex justify-center pb-[80px]"><button className='bg-white px-[35px] py-[10px] rounded uppercase'>See All</button></div>
     </section>
   )
 }

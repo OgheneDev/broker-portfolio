@@ -28,7 +28,7 @@ const Service = () => {
         </article>
       </div>
       <Link to='remodeling-projects'>
-      <button className='bg-white py-[5px] px-[30px] uppercase font-bold'>
+      <button className='bg-white px-[35px] py-[10px] rounded uppercase font-bold'>
         Explore
       </button></Link>
       </div>

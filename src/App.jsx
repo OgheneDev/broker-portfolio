@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import LandingPage from './pages/LandingPage';
@@ -7,6 +7,7 @@ import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
 import PortfolioPage from './pages/PortfolioPage';
 import StockPage from './pages/StockPage';
+import ScrollToTop from './components/ScrollToTop';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,11 +24,16 @@ const router = createBrowserRouter(
 
 const App = () => {
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
+    <RouterProvider router={router}>
+      <ScrollToTop /> {/* Ensure this is directly under RouterProvider */}
+      <MainLayout /> {/* Renders your layout and child components */}
+    </RouterProvider>
   );
 }
 
-export default App
+export default App;
+
+
+
+
 

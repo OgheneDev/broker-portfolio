@@ -15,6 +15,7 @@ import Blog from '../components/Blog'
 import NewsLetter from '../components/NewsLetter'
 
 const LandingPage = () => {
+  
   return (
     <>
       <Hero />

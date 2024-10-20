@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Team from '../components/Team'
 import pro from '../assets/images/pro.svg'
-import vid from '../assets/images/vid.png'
+import vid from '../assets/images/glenn.webp'
 import plant from '../assets/images/plant.png'
 import office from '../assets/images/line.png'
 import laptop from '../assets/images/laptop.png'
@@ -35,12 +35,12 @@ At Novak Investments and Construction LLC, we specialize in construction and pro
 </p>
       </section>
 
-      <div className="image-container md:flex bg-custom-ash px-[30px] pb-[60px] md:px-[150px] md:gap-[30px]">
+      <div className="image-container md:flex md:items-center bg-custom-ash px-[30px] pb-[60px] md:px-[150px] md:gap-[30px]">
          <div className="video-cont w-full mb-[20px]">
-            <img src={vid} alt="" className='w-full' />
+            <img src={vid} alt="" className='w-full rounded-lg' />
          </div>
 
-         <div className="container grid grid-cols-2 gap-4">
+         <div className="container grid grid-cols-2 gap-3">
             <img src={plant} alt="" className='w-full' />
             <img src={office} alt="" className='w-full' />
             <img src={laptop} alt="" className='w-full' />

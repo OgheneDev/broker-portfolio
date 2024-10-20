@@ -30,7 +30,7 @@ const Navbar = () => {
 
       <div className="hidden md:block">
         <Link to='/contact'>
-          <button className="text-white px-4 py-2 rounded border border-white">
+          <button className="text-white px-[35px] py-[10px] rounded border border-white">
             CONTACT
           </button>
         </Link>

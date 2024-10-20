@@ -13,7 +13,7 @@ const Blog = () => {
         Articles</h1>
       </article>
 
-      <button className='bg-white text-dark font-bold uppercase py-[10px] px-[30px] mb-[50px]'>Discover All</button>
+      <button className='bg-white text-dark font-bold uppercase py-[10px] px-[30px] rounded mb-[50px]'>Discover All</button>
       </div>
 
       <div className="cards flex flex-col gap-[30px] md:flex-row ">

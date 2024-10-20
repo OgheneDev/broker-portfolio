@@ -60,7 +60,7 @@ const Events = () => {
       
       {/* Adjusted button layout for both mobile and desktop */}
       <div className="flex justify-center mt-[40px]">
-        <button className="w-fit text-white border border-white px-[40px] py-[10px] text-sm font-semibold transition-transform transform hover:scale-105">
+        <button className="w-fit text-white border border-white px-[40px] rounded py-[10px] text-sm font-semibold transition-transform transform hover:scale-105">
           EXPLORE MORE
         </button>
       </div>

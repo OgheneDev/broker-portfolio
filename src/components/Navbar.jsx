@@ -21,6 +21,7 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <div className="hidden md:flex items-center space-x-6">
         <div className="flex gap-[70px]">
+          <NavLink to='/' className="text-white hover:text-gray-300">Home</NavLink>
           <NavLink to='/about' className="text-white hover:text-gray-300">About</NavLink>
           <NavLink to='/services' className="text-white hover:text-gray-300">Services</NavLink>
           <NavLink to='/stocks'className="text-white hover:text-gray-300">Stocks</NavLink>
@@ -39,6 +40,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`md:hidden menu fixed w-full top-[70px] ${isOpen ? 'translate-x-0' : '-translate-x-full'} left-0 transition-transform duration-200 ease-in-out h-screen bg-back-blue py-[30px]`}>
         <ul className='flex flex-col items-center gap-[30px] text-white text-[18px]'>
+          <li><NavLink to='/'>Home</NavLink></li>
           <li><NavLink to='/about'>About Us</NavLink></li>
           <li><NavLink to='/services'>Services</NavLink></li>
           <li><NavLink to='/stocks'>Stocks</NavLink></li>

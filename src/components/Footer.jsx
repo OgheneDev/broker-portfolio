@@ -8,9 +8,9 @@ import logo from '../assets/images/logo.png'
 
 const Footer = () => {
   return (
-    <footer className='bg-custom-ash px-[20px] py-[40px] md:pt-[100px] text-center md:px-[100px]'>
-      <div className='border-b border-b-custom-pink px-[30px] pb-[20px] md:flex md:items-start md:justify-between'>
-      <div className="logo">
+    <footer className='bg-custom-ash px-[20px]  py-[40px] md:pt-[100px] text-center md:px-[100px]'>
+      <div className='border-b border-b-custom-pink px-[30px] pb-[20px] flex items-center flex-col md:flex-row md:items-start md:justify-between'>
+      <div className="logo mb-[50px] md:mb-0">
         <Link to='/'><img src={logo} alt="Logo" /></Link>
       </div>
 

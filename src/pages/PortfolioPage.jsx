@@ -62,7 +62,7 @@ const PortfolioPage = () => {
           <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
           <div className="absolute inset-0 flex flex-col justify-end p-6">
             <span className="text-white text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Project</span>
-            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">Villas at Holly</h3>
+            <h3 className="text-white text-2xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">AMLI Littleton Village</h3>
           </div>
         </div>
 

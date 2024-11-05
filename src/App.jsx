@@ -25,7 +25,6 @@ const router = createBrowserRouter(
 const App = () => {
   return (
     <RouterProvider router={router}>
-      <ScrollToTop /> {/* Ensure this is directly under RouterProvider */}
       <MainLayout /> {/* Renders your layout and child components */}
     </RouterProvider>
   );
